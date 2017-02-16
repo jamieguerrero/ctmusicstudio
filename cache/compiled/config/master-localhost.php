@@ -1,21 +1,25 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1487130512,
-    'checksum' => 'fd71edc72f24aedaf8054d080ca28f9c',
+    'timestamp' => 1487217224,
+    'checksum' => 'a0a0743226e0cc10659b5f5f62fb12cb',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1479056751
             ],
+            'plugins/ganalytics' => [
+                'file' => 'user/config/plugins/ganalytics.yaml',
+                'modified' => 1487215836
+            ],
+            'plugins/git-sync' => [
+                'file' => 'user/config/plugins/git-sync.yaml',
+                'modified' => 1487215833
+            ],
             'plugins/instagram' => [
                 'file' => 'user/config/plugins/instagram.yaml',
-                'modified' => 1487126568
-            ],
-            'plugins/instagram-feed' => [
-                'file' => 'user/config/plugins/instagram-feed.yaml',
-                'modified' => 1487126609
+                'modified' => 1487216008
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -31,7 +35,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1487130141
+                'modified' => 1487215718
             ],
             'themes/antimatter' => [
                 'file' => 'user/config/themes/antimatter.yaml',
@@ -88,10 +92,6 @@ return [
             'plugins/instagram' => [
                 'file' => 'user/plugins/instagram/instagram.yaml',
                 'modified' => 1487124786
-            ],
-            'plugins/instagram-feed' => [
-                'file' => 'user/plugins/instagram-feed/instagram-feed.yaml',
-                'modified' => 1487125413
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -208,7 +208,7 @@ return [
                 ]
             ],
             'ganalytics' => [
-                'enabled' => true,
+                'enabled' => false,
                 'trackingId' => '',
                 'position' => 'head',
                 'objectName' => 'ga',
@@ -226,7 +226,7 @@ return [
                 'debugTrace' => false
             ],
             'git-sync' => [
-                'enabled' => true,
+                'enabled' => false,
                 'text_var' => 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)'
             ],
             'instagram' => [
@@ -241,10 +241,6 @@ return [
                     'user_id' => '4361210677',
                     'access_token' => '4361210677.1677ed0.0ce36fe572a44101a580847a3a88154e'
                 ]
-            ],
-            'instagram-feed' => [
-                'enabled' => false,
-                'route' => '/'
             ],
             'login' => [
                 'enabled' => true,

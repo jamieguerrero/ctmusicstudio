@@ -108,6 +108,6 @@ class __TwigTemplate_32791962f26def93ce04713b96aa0d6fbf8ed1dd018240a37edef0fff1f
 
 
 
-", "partials/logo.html.twig", "/Applications/MAMP/htdocs/-grav/user/plugins/admin/themes/grav/templates/partials/logo.html.twig");
+", "partials/logo.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/logo.html.twig");
     }
 }

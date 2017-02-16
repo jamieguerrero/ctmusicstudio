@@ -246,6 +246,6 @@ class __TwigTemplate_a15d18a3a4d7ca9d3273a8eebf1851237aca354e2f18c697392239d40c7
 {% include 'partials/modal-add-package.html.twig' with { type: 'plugin' } %}
 {% include 'partials/modal-update-packages.html.twig' with { type: 'plugin' } %}
 {% include 'partials/modal-remove-package.html.twig' with { type: 'plugin', package: plugin } %}
-", "partials/plugins-details.html.twig", "/Applications/MAMP/htdocs/jamieguerrero/user/plugins/admin/themes/grav/templates/partials/plugins-details.html.twig");
+", "partials/plugins-details.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/plugins-details.html.twig");
     }
 }

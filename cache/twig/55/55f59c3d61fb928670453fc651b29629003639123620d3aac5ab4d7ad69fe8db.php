@@ -71,6 +71,6 @@ class __TwigTemplate_1a91950a059be83d10b14fda31f3db966567737d0881deb25678b309ec5
   {{ instagram_feed() }}
 
 {% endblock %}
-", "instagram.html.twig", "/Applications/MAMP/htdocs/jamieguerrero/user/themes/cacti/templates/instagram.html.twig");
+", "instagram.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/cacti/templates/instagram.html.twig");
     }
 }

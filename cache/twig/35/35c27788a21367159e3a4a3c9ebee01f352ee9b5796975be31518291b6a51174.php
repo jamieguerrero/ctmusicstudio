@@ -96,6 +96,6 @@ class __TwigTemplate_c7b7f5dbd93ae7a3e3aa3db361d4e212a80a27dc18673b9ea0df4b86648
     </select>
     <div class=\"sort-icon\"><i class=\"fa fa-fw fa-sort-amount-asc\"></i></div>
 </div>
-", "partials/list-sort.html.twig", "/Applications/MAMP/htdocs/-grav/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
+", "partials/list-sort.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
     }
 }

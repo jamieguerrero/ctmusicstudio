@@ -348,6 +348,6 @@ class __TwigTemplate_4ffa6469cdac6a97a82e73ae69ed80a16a44afc3862582b1e6e148fe7fc
 
 {% include 'partials/modal-add-package.html.twig' with { type: 'plugin' } %}
 {% include 'partials/modal-update-packages.html.twig' with { type: 'plugin' } %}
-", "partials/plugins-list.html.twig", "/Applications/MAMP/htdocs/-grav/user/plugins/admin/themes/grav/templates/partials/plugins-list.html.twig");
+", "partials/plugins-list.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/plugins-list.html.twig");
     }
 }

@@ -71,6 +71,6 @@ class __TwigTemplate_5757bf064e4a17e9d79511dd87edede7cc7cc31b27c6070f4776bbffa9b
         <ul></ul>
     </div>
 </div>
-", "partials/dashboard-notifications.html.twig", "/Applications/MAMP/htdocs/-grav/user/plugins/admin/themes/grav/templates/partials/dashboard-notifications.html.twig");
+", "partials/dashboard-notifications.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/dashboard-notifications.html.twig");
     }
 }

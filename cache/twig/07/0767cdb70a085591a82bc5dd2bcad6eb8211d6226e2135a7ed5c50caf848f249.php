@@ -127,6 +127,6 @@ class __TwigTemplate_6eebe95610d83d695f02d575d4fc4a0f99af207bfaba2caa335fdbb32a8
         {% include 'partials/langswitcher.html.twig' %}
     {% endif %}
 </section>
-", "partials/navigation.html.twig", "/Applications/MAMP/htdocs/jamieguerrero/user/themes/cacti/templates/partials/navigation.html.twig");
+", "partials/navigation.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/cacti/templates/partials/navigation.html.twig");
     }
 }

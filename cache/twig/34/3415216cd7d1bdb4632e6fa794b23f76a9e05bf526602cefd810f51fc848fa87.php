@@ -53,6 +53,6 @@ class __TwigTemplate_0efc12322a9686195040059c17c9ab7f6c4f61f67b4b64532e2ad69ceac
         return new Twig_Source("<footer id=\"footer\">
     <p class=\"small\">{{ 'SITE.COPYRIGHT'|t(\"now\"|date('Y')) }}</p>
 </footer>
-", "partials/footer.html.twig", "/Applications/MAMP/htdocs/jamieguerrero/user/themes/cacti/templates/partials/footer.html.twig");
+", "partials/footer.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/cacti/templates/partials/footer.html.twig");
     }
 }

@@ -242,6 +242,6 @@ class __TwigTemplate_a46a904ae7610d5cb1042ce25687dbdc9b2d38e2f01d3818e1ca92267dd
     {% endif %}
 </body>
 </html>
-", "partials/base.html.twig", "/Applications/MAMP/htdocs/jamieguerrero/user/themes/cacti/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/cacti/templates/partials/base.html.twig");
     }
 }

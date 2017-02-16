@@ -81,6 +81,6 @@ class __TwigTemplate_169ef5e29fadca3ee3ebfaeac8500659383e232f8cf7df30b1e8e037e89
 
 {% include 'partials/javascripts-extra.html.twig' ignore missing %}
 {% endif %}
-", "partials/javascripts.html.twig", "/Applications/MAMP/htdocs/-grav/user/plugins/admin/themes/grav/templates/partials/javascripts.html.twig");
+", "partials/javascripts.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/javascripts.html.twig");
     }
 }

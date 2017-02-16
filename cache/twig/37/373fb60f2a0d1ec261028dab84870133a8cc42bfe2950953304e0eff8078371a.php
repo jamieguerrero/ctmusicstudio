@@ -75,6 +75,6 @@ class __TwigTemplate_112608981c70a926ebbfd6c0a6075fcf257a2031f0c8d81b4398f5b0b77
     </div>
 </div>
 
-", "partials/dashboard-feed.html.twig", "/Applications/MAMP/htdocs/-grav/user/plugins/admin/themes/grav/templates/partials/dashboard-feed.html.twig");
+", "partials/dashboard-feed.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/dashboard-feed.html.twig");
     }
 }

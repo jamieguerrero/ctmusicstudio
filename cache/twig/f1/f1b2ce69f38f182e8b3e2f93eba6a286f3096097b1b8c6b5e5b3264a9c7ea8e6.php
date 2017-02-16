@@ -30,7 +30,7 @@ class __TwigTemplate_5f8b548c5f83a5134d3d3500c05e24f691251132c77afad56e1d546ec5c
         // line 5
         if (($context["plugin_slug"] ?? null)) {
             // line 6
-            $context["installing"] = (is_string($__internal_596ef0736bec8ad83788c95024a0b6e7726a51fa62d34b5082057a4e27c2c365 = ($context["plugin_slug"] ?? null)) && is_string($__internal_1735b72a2ea1d78af9295e312d2b1f914bfa675227e05bbd34d160f8800f6103 = "install") && ('' === $__internal_1735b72a2ea1d78af9295e312d2b1f914bfa675227e05bbd34d160f8800f6103 || 0 === strpos($__internal_596ef0736bec8ad83788c95024a0b6e7726a51fa62d34b5082057a4e27c2c365, $__internal_1735b72a2ea1d78af9295e312d2b1f914bfa675227e05bbd34d160f8800f6103)));
+            $context["installing"] = (is_string($__internal_6ec63b7017371c3f33e44bc9dfb857ccb7c985f3febc3a4be8deb46500360ff6 = ($context["plugin_slug"] ?? null)) && is_string($__internal_f112f3feccf36e7c8e6ce7945a4b3a9f4bfb7c3451b7a8fa2378f14df9fadd8b = "install") && ('' === $__internal_f112f3feccf36e7c8e6ce7945a4b3a9f4bfb7c3451b7a8fa2378f14df9fadd8b || 0 === strpos($__internal_6ec63b7017371c3f33e44bc9dfb857ccb7c985f3febc3a4be8deb46500360ff6, $__internal_f112f3feccf36e7c8e6ce7945a4b3a9f4bfb7c3451b7a8fa2378f14df9fadd8b)));
             // line 8
             if (($context["installing"] ?? null)) {
                 // line 9
@@ -351,6 +351,6 @@ class __TwigTemplate_5f8b548c5f83a5134d3d3500c05e24f691251132c77afad56e1d546ec5c
         {% endif %}
     </div>
 {% endblock %}
-", "plugins.html.twig", "/Applications/MAMP/htdocs/-grav/user/plugins/admin/themes/grav/templates/plugins.html.twig");
+", "plugins.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/plugins.html.twig");
     }
 }
