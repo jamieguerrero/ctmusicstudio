@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1487217224,
-    'checksum' => 'a0a0743226e0cc10659b5f5f62fb12cb',
+    'timestamp' => 1487218770,
+    'checksum' => 'e0c4e73c5ac8f31ab7f1d013718c1740',
     'files' => [
         'user/config' => [
             'media' => [
@@ -35,7 +35,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1487215718
+                'modified' => 1487218770
             ],
             'themes/antimatter' => [
                 'file' => 'user/config/themes/antimatter.yaml',
@@ -68,6 +68,10 @@ return [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
                 'modified' => 1487122692
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/devtools.yaml',
+                'modified' => 1487218388
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
@@ -163,6 +167,9 @@ return [
                         'visitors' => 20
                     ]
                 ]
+            ],
+            'devtools' => [
+                'enabled' => true
             ],
             'email' => [
                 'enabled' => true,
@@ -653,7 +660,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'cacti',
+                'theme' => 'ctms-theme',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
