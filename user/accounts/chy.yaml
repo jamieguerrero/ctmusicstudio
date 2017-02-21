@@ -1,0 +1,11 @@
+email: chynna@ctmusicstudio.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Chynna Tolibas'
+title: Musician
+state: enabled
+hashed_password: $2y$10$N22GQCDhPEYSrnAzoj5jgO2x30O6cisrWi1/w3atzVytJRo8kOGky

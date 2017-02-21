@@ -60,6 +60,6 @@ class __TwigTemplate_86f1c1a474c2e1e89079ea8e417843f3f003c77ebb7fbacba5448b84b6e
         return new Twig_Source("{% for post in feed|slice(0, count)  %}
     <li><a href=\"{{ post.link }}\" target=\"_blank\"><img src=\"{{ post.image }}\" alt=\"\"></a></li>
 {% endfor %}
-", "partials/instagram.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/instagram/templates/partials/instagram.html.twig");
+", "partials/instagram.html.twig", "/Applications/MAMP/htdocs/ctms-grav/user/plugins/instagram/templates/partials/instagram.html.twig");
     }
 }

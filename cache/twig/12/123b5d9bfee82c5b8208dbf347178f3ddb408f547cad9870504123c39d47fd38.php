@@ -65,6 +65,6 @@ class {{ component.name|camelize }} extends Theme
 {
     // Access plugin events in this class
 }
-", "theme.php.twig", "/Applications/MAMP/htdocs/grav/user/plugins/devtools/components/theme/pure-blank/theme.php.twig");
+", "theme.php.twig", "/Applications/MAMP/htdocs/ctms-grav/user/plugins/devtools/components/theme/pure-blank/theme.php.twig");
     }
 }

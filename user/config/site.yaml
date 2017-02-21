@@ -1,7 +1,19 @@
-title: Grav
+title: 'CT Music Studio'
+default_lang: en
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: 'Chynna Tolibas'
+  email: chynna@ctmusicstudio.com
+taxonomies:
+  - category
+  - tag
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
+  description: 'Lessons, Accompaniment, Event Services provided by CT Music Studio based in the GTA'
+  keywords: 'piano lessons, piano, music, lessons, brampton, mississauga, toronto, gta, accompaniment, events'
+  viewport: 'width=device-width,initial-scale=1.0,maximum-scale=1.0'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog

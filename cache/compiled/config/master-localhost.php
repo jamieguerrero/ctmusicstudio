@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1487218770,
-    'checksum' => 'e0c4e73c5ac8f31ab7f1d013718c1740',
+    'timestamp' => 1487638487,
+    'checksum' => '152ddc7a81034c18b9bfd37eac6ae938',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'plugins/instagram' => [
                 'file' => 'user/config/plugins/instagram.yaml',
-                'modified' => 1487216008
+                'modified' => 1487471913
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -27,7 +27,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1478520864
+                'modified' => 1487477114
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -35,7 +35,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1487218770
+                'modified' => 1487638487
             ],
             'themes/antimatter' => [
                 'file' => 'user/config/themes/antimatter.yaml',
@@ -49,25 +49,25 @@ return [
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1487122648
+                'modified' => 1487468278
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1487122648
+                'modified' => 1487468278
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1487122648
+                'modified' => 1487468278
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1487122648
+                'modified' => 1487468278
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1487122692
+                'modified' => 1487468337
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
@@ -83,7 +83,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1487122670
+                'modified' => 1487468330
             ],
             'plugins/ganalytics' => [
                 'file' => 'user/plugins/ganalytics/ganalytics.yaml',
@@ -91,7 +91,7 @@ return [
             ],
             'plugins/git-sync' => [
                 'file' => 'user/plugins/git-sync/git-sync.yaml',
-                'modified' => 1487124797
+                'modified' => 1487468341
             ],
             'plugins/instagram' => [
                 'file' => 'user/plugins/instagram/instagram.yaml',
@@ -107,7 +107,7 @@ return [
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1478520864
+                'modified' => 1487468339
             ],
             'plugins/youtube' => [
                 'file' => 'user/plugins/youtube/youtube.yaml',
@@ -245,8 +245,8 @@ return [
                 'feed_parameters' => [
                     'count' => 7,
                     'cache_time' => 1,
-                    'user_id' => '4361210677',
-                    'access_token' => '4361210677.1677ed0.0ce36fe572a44101a580847a3a88154e'
+                    'user_id' => '2325391953',
+                    'access_token' => '2325391953.87569c4.8592d48f306c49ffb30f2c85780b3a60'
                 ]
             ],
             'login' => [
@@ -587,18 +587,20 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'CT Music Studio',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Chynna Tolibas',
+                'email' => 'chynna@ctmusicstudio.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Lessons, Accompaniment, Event Services provided by CT Music Studio based in the GTA',
+                'keywords' => 'piano lessons, piano, music, lessons, brampton, mississauga, toronto, gta, accompaniment, events',
+                'viewport' => 'width=device-width,initial-scale=1.0,maximum-scale=1.0'
             ],
             'summary' => [
                 'enabled' => true,
@@ -729,7 +731,7 @@ return [
                 ]
             ],
             'cache' => [
-                'enabled' => true,
+                'enabled' => false,
                 'check' => [
                     'method' => 'file'
                 ],

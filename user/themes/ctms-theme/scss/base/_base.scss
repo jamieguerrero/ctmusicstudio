@@ -1,0 +1,120 @@
+#content-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+a {
+	font-family: Qanelas-Semibold;
+	text-decoration: none;
+	color: font-color('accent');
+	cursor: hand;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.logo-img {
+	max-width: 200px;
+}
+
+.section-img {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.img-dark {
+	border: 5px color('l-background') solid;
+}
+
+.img-light {
+	border: 5px color('d-background') solid;
+}
+
+a .img-dark:hover, a .img-light:hover{
+	border-color: color('accent');
+}
+
+.about-school {
+	width: 125px;
+}
+
+.contact-form {
+	box-sizing: border-box;
+	background-color: color('primary');
+	border: 1px color('d-background') solid;
+	height: $base-line-height;
+	width: 100%;
+	margin-top: $base-line-height;
+}
+
+.contact-content {
+	height: $base-line-height * 4;
+}
+
+.contact-button {
+	font-family: Qanelas-Regular;
+	background: color('d-background');
+  color: font-color('light');
+  text-transform: uppercase;
+  height: $base-line-height * 1.5;
+  width: 30%;
+}
+
+@media screen and (min-width: 700px){
+	.logo-img, {
+		max-width: 300px;
+	}
+
+	.section-img {
+		max-width: 50%;
+	}
+
+	.about-school {
+		width: 200px;
+	}
+
+	.section-top {
+		width: $tablet-width;
+	}
+
+	.section-bottom-wrapper {
+			width: 50%;
+	}
+
+	.right {
+		float: right;
+		text-align: right;
+	}
+
+	.left{
+		float: left;
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.logo-img {
+		max-width: 350px;
+	}
+
+	.section-img {
+		max-width: 50%;
+	}
+
+	.about-school {
+		width: 225px;
+	}
+
+	.section-top {
+		width: $desktop-width;
+	}
+
+	.section-bottom {
+		width: $desktop-width;
+	}
+
+}

@@ -1,0 +1,422 @@
+/* main.scss */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Qanelas-Regular';
+  src: url("../fonts/Qanelas-Regular/qanelassoft-regular-webfont.eot");
+  src: url("../fonts/Qanelas-Regular/qanelassoft-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Qanelas-Regular/qanelassoft-regular-webfont.woff2") format("woff2"), url("../fonts/Qanelas-Regular/qanelassoft-regular-webfont.woff") format("woff"), url("../fonts/Qanelas-Regular/qanelassoft-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Qanelas-Medium';
+  src: url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.eot");
+  src: url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.woff2") format("woff2"), url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.woff") format("woff"), url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold; }
+
+@font-face {
+  font-family: 'Qanelas-Semibold';
+  src: url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.eot");
+  src: url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.woff2") format("woff2"), url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.woff") format("woff"), url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold; }
+
+@font-face {
+  font-family: 'Qanelas-Bold';
+  src: url("../fonts/Qanelas-Bold/qanelassoft-bold-webfont.eot");
+  src: url("../fonts/Qanelas-Bold/qanelassoft-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Qanelas-Bold/qanelassoft-bold-webfont.woff2") format("woff2"), url("../fonts/Qanelas-Bold/qanelassoft-bold-webfont.woff") format("woff"), url("../fonts/Qanelas-Bold/qanelassoft-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold; }
+
+@font-face {
+  font-family: 'Qanelas-Italic';
+  src: url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.eot");
+  src: url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.woff2") format("woff2"), url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.woff") format("woff"), url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.ttf") format("truetype");
+  font-weight: italic;
+  font-style: italic; }
+
+/* ===================line-height/type-scale functions===================== */
+html {
+  font-size: 12pt;
+  font-family: Qanelas-Regular;
+  font-weight: normal;
+  font-smoothing: antialiased !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: antialiased !important;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  -moz-osx-overflow-scrolling: touch; }
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 14pt; } }
+
+h1, h2 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: Qanelas-Bold;
+  text-transform: lowercase; }
+
+h2 {
+  font-size: 1.333rem;
+  line-height: 1.875rem; }
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+li {
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+/* ============================================================= */
+/*===================== Color =====================*/
+.header-wrapper, .section-wrapper, .footer-wrapper {
+  padding: 8rem 1rem 8rem 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
+  text-align: center; }
+
+/* =========== Map Styling =========== */
+#map {
+  height: 18rem;
+  width: 100%; }
+
+.section-map {
+  display: flex;
+  padding: 0px;
+  text-align: center;
+  flex-direction: column; }
+
+.map-overlay {
+  margin-top: -12rem;
+  height: 9rem;
+  z-index: 100; }
+
+/* =========== Map Styling =========== */
+@media screen and (min-width: 550px) {
+  .header-wrapper, .section-wrapper, .footer-wrapper {
+    padding: 5rem 4rem 5rem 4rem; }
+  .header-wrapper {
+    padding-bottom: 10rem; } }
+
+@media screen and (min-width: 768px) {
+  .header-wrapper, .section-wrapper, .footer-wrapper {
+    padding: 5rem 6rem 5rem 6rem; }
+  .header-wrapper {
+    padding-bottom: 10rem; } }
+
+#content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 0px; }
+
+a {
+  font-family: Qanelas-Semibold;
+  text-decoration: none;
+  color: #AA0000;
+  cursor: hand; }
+
+a:hover {
+  text-decoration: underline; }
+
+.logo-img {
+  max-width: 200px; }
+
+.section-img {
+  max-width: 100%;
+  box-sizing: border-box; }
+
+.img-dark {
+  border: 5px #FFFFFF solid; }
+
+.img-light {
+  border: 5px #333 solid; }
+
+a .img-dark:hover, a .img-light:hover {
+  border-color: #AA0000; }
+
+.about-school {
+  width: 125px; }
+
+.contact-form {
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1px #333 solid;
+  height: 1.5rem;
+  width: 100%;
+  margin-top: 1.5rem; }
+
+.contact-content {
+  height: 6rem; }
+
+.contact-button {
+  font-family: Qanelas-Regular;
+  background: #333;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  height: 2.25rem;
+  width: 30%; }
+
+@media screen and (min-width: 700px) {
+  .logo-img {
+    max-width: 300px; }
+  .section-img {
+    max-width: 50%; }
+  .about-school {
+    width: 200px; }
+  .section-top {
+    width: 100%; }
+  .section-bottom-wrapper {
+    width: 50%; }
+  .right {
+    float: right;
+    text-align: right; }
+  .left {
+    float: left;
+    text-align: left; } }
+
+@media screen and (min-width: 1024px) {
+  .logo-img {
+    max-width: 350px; }
+  .section-img {
+    max-width: 50%; }
+  .about-school {
+    width: 225px; }
+  .section-top {
+    width: 80%; }
+  .section-bottom {
+    width: 80%; } }
+
+#full-nav {
+  display: none; }
+
+.mobile-button {
+  position: fixed;
+  top: 1rem;
+  right: 1rem; }
+
+/* Overlay style */
+.overlay {
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  font-family: Qanelas-Regular; }
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  overflow: hidden;
+  border: none;
+  background: url(css-images/menu-x.svg) no-repeat center center;
+  text-indent: 200%;
+  color: transparent;
+  outline: none;
+  z-index: 100; }
+
+/* Menu style */
+.overlay nav {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  height: 100%;
+  position: relative; }
+
+.overlay ul li {
+  display: block;
+  height: 20%;
+  height: calc(100% / 5);
+  min-height: 4.5rem; }
+
+.overlay ul li a {
+  font-weight: 300;
+  display: block;
+  color: #333;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  font-size: 2rem;
+  margin-top: 20px;
+  text-decoration: none; }
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+  color: #AA0000; }
+
+/* Effects */
+.overlay-hugeinc {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 0.5s, visibility 0s 0.5s; }
+
+.overlay-hugeinc.open {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s; }
+
+.overlay-hugeinc nav {
+  -webkit-perspective: 1200px;
+  perspective: 1200px; }
+
+.overlay-hugeinc nav ul {
+  opacity: 0.4;
+  -webkit-transform: translateY(-25%) rotateX(35deg);
+  transform: translateY(-25%) rotateX(35deg);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s; }
+
+.overlay-hugeinc.open nav ul {
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg); }
+
+.overlay-hugeinc.close nav ul {
+  -webkit-transform: translateY(25%) rotateX(-35deg);
+  transform: translateY(25%) rotateX(-35deg); }
+
+@media screen and (max-height: 30.5em) {
+  .overlay nav {
+    height: 70%;
+    font-size: 34px; }
+  .overlay ul li {
+    min-height: 34px; } }
+
+@media screen and (min-width: 550px) {
+  .mobile-button {
+    display: none; }
+  #full-nav {
+    margin-top: -2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    width: 100%; }
+    #full-nav ul {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      #full-nav ul a {
+        font-family: Qanelas-Regular;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-decoration: none;
+        color: #333; }
+      #full-nav ul a:hover {
+        color: #AA0000; } }
+
+@media screen and (min-width: 768px) {
+  #full-nav {
+    width: 80%; } }
+
+.section-dark {
+  background-color: #333;
+  color: #FFFFFF; }
+
+.section-light {
+  background-color: #FFFFFF;
+  color: #333; }
+
+.section-mid {
+  background-color: #EAEAEA;
+  color: #333; }
+
+.section-map {
+  font-family: Qanelas;
+  font-style: bold; }
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+.sched-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .sched-row p {
+    font-family: Qanelas-Medium;
+    min-height: 1.5rem;
+    margin: 5px;
+    font-weight: bold; }
+
+.sched-row:last-child {
+  margin-bottom: 1.5rem; }
+
+.sched-dark {
+  background-color: #333;
+  color: #FFFFFF; }
+
+@media screen and (min-width: 700px) {
+  .schedule {
+    display: flex;
+    vertical-align: bottom;
+    justify-content: flex-end; } }

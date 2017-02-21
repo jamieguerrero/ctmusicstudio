@@ -1,0 +1,19 @@
+.section-dark {
+	background-color: color('d-background');
+	color: font-color('light');
+}
+
+.section-light {
+	background-color: color('l-background');
+	color: font-color('dark');
+}
+
+.section-mid {
+	background-color: color('m-background');
+	color: font-color('dark');
+}
+
+.section-map {
+	font-family: Qanelas;
+	font-style: bold;
+}

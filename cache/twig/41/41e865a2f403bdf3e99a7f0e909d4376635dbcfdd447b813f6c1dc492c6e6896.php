@@ -141,6 +141,6 @@ class __TwigTemplate_f8ce1a758e62101a439223220a1e982bf35452d9ed148617966ff9e8ffe
     {{ nonce_field('admin-form', 'admin-nonce')|raw }}
 
 </form>
-", "partials/blueprints-new-folder.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/blueprints-new-folder.html.twig");
+", "partials/blueprints-new-folder.html.twig", "/Applications/MAMP/htdocs/ctms-grav/user/plugins/admin/themes/grav/templates/partials/blueprints-new-folder.html.twig");
     }
 }

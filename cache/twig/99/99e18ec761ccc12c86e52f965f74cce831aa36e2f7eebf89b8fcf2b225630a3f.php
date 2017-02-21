@@ -24,18 +24,20 @@ class __TwigTemplate_822a456d4d44d88d54d5648f813a670afbe8a5c8baf82024490b8536db5
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 3
+    // line 4
     public function block_content($context, array $blocks = array())
     {
-        // line 4
-        echo "\t";
+        // line 5
+        echo "<section>
+\t";
+        // line 6
         echo $this->getAttribute(($context["page"] ?? null), "content", array());
         echo "
   ";
-        // line 5
+        // line 7
         echo call_user_func_array($this->env->getFunction('instagram_feed')->getCallable(), array());
         echo "
-
+</section>
 ";
     }
 
@@ -51,7 +53,7 @@ class __TwigTemplate_822a456d4d44d88d54d5648f813a670afbe8a5c8baf82024490b8536db5
 
     public function getDebugInfo()
     {
-        return array (  36 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  38 => 7,  34 => 6,  31 => 5,  28 => 4,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -66,11 +68,13 @@ class __TwigTemplate_822a456d4d44d88d54d5648f813a670afbe8a5c8baf82024490b8536db5
     {
         return new Twig_Source("{% extends 'partials/base.html.twig' %}
 
+
 {% block content %}
+<section>
 \t{{ page.content }}
   {{ instagram_feed() }}
-
+</section>
 {% endblock %}
-", "instagram.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/ctms-theme/templates/instagram.html.twig");
+", "instagram.html.twig", "/Applications/MAMP/htdocs/ctms-grav/user/themes/ctms-theme/templates/instagram.html.twig");
     }
 }

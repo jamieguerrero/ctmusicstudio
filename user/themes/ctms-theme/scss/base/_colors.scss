@@ -1,0 +1,23 @@
+/*===================== Color =====================*/
+$colors: (
+	'primary': #FFFFFF, 
+	'accent': #AA0000,
+	'secondary': #EDCD00,
+	'd-background': #333,
+	'l-background': #FFFFFF,
+	'm-background': #EAEAEA
+);
+
+$font-colors: (
+	'dark': #333	,
+	'light': #FFFFFF,
+	'accent': #AA0000
+);
+
+@function color($key: 'primary') {
+  @return map-get($colors, $key);
+}
+
+@function font-color($key: 'dark') {
+  @return map-get($font-colors, $key);
+}

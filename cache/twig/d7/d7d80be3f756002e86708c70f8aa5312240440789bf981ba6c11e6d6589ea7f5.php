@@ -266,6 +266,6 @@ class __TwigTemplate_108d068f2575dbf23cb9bd553deedd029612c592f389f716b000ba4c7af
     {% endfor %}
 </ul>
 
-", "partials/navigation.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/ctms-theme/templates/partials/navigation.html.twig");
+", "partials/navigation.html.twig", "/Applications/MAMP/htdocs/ctms-grav/user/themes/ctms-theme/templates/partials/navigation.html.twig");
     }
 }

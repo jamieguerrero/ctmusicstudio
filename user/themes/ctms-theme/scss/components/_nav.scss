@@ -1,0 +1,36 @@
+@media screen and (min-width: 550px) {
+  .mobile-button { display: none; }
+
+  #full-nav {
+    margin-top: -2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    width: $tablet-width;
+
+    ul {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      a {
+        font-family: Qanelas-Regular;
+        @include type-setting(0);
+        text-decoration: none;
+        color: font-color('dark');
+      }
+
+      a:hover {
+        color: font-color('accent');
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  #full-nav {
+    width: $desktop-width;
+  }
+}

@@ -57,6 +57,6 @@ class __TwigTemplate_494e21fc3048c0a83519cc03879bd22578a85b5e48ede0ee35cbb5159a0
 
 1. [](#new)
     * ChangeLog started...
-", "CHANGELOG.md.twig", "/Applications/MAMP/htdocs/grav/user/plugins/devtools/components/theme/pure-blank/CHANGELOG.md.twig");
+", "CHANGELOG.md.twig", "/Applications/MAMP/htdocs/ctms-grav/user/plugins/devtools/components/theme/pure-blank/CHANGELOG.md.twig");
     }
 }

@@ -1,0 +1,38 @@
+.schedule {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.sched-row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+
+	p {
+		font-family: Qanelas-Medium;
+		min-height: $base-line-height;
+		margin: 5px;
+		font-weight: bold;
+		//padding-left: 20px;
+		//padding-right: 20px;
+	}
+}
+
+.sched-row:last-child {
+	margin-bottom: $base-line-height;
+}
+
+.sched-dark {
+	background-color: color('d-background');
+	color: font-color('light');
+}
+
+@media screen and (min-width: 700px){
+	.schedule {
+		display: flex;
+		vertical-align: bottom;
+		justify-content: flex-end;
+	}
+}

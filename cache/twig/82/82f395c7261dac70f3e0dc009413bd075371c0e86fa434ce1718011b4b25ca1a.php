@@ -117,6 +117,6 @@ class __TwigTemplate_4b746d75c99996c4234faf259b0013a034e14768c47d67981ae9b086351
 {% else %}
     <div class=\"padding\">You don't have sufficient access to view the dashboard...</div>
 {% endif %}
-", "partials/dashboard-pages.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/dashboard-pages.html.twig");
+", "partials/dashboard-pages.html.twig", "/Applications/MAMP/htdocs/ctms-grav/user/plugins/admin/themes/grav/templates/partials/dashboard-pages.html.twig");
     }
 }

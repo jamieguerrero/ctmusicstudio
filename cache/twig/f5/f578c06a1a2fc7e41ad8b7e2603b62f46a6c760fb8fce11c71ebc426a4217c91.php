@@ -124,6 +124,6 @@ form:
           0: PLUGIN_ADMIN.DISABLED
         validate:
           type: bool
-", "blueprints.yaml.twig", "/Applications/MAMP/htdocs/grav/user/plugins/devtools/components/theme/pure-blank/blueprints.yaml.twig");
+", "blueprints.yaml.twig", "/Applications/MAMP/htdocs/ctms-grav/user/plugins/devtools/components/theme/pure-blank/blueprints.yaml.twig");
     }
 }

@@ -82,6 +82,6 @@ class __TwigTemplate_ff2207d05641293bb48681056166800a239a741ffe8851f03c9676bd24d
         return new Twig_Source("{% for meta in page.metadata %}
 <meta {% if meta.name %}name=\"{{ meta.name }}\" {% endif %}{% if meta.http_equiv %}http-equiv=\"{{ meta.http_equiv }}\" {% endif %}{% if meta.charset %}charset=\"{{ meta.charset }}\" {% endif %}{% if meta.property %}property=\"{{ meta.property }}\" {% endif %}{% if meta.content %}content=\"{{ meta.content }}\" {% endif %}/>
 {% endfor %}
-", "partials/metadata.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/ctms-theme/templates/partials/metadata.html.twig");
+", "partials/metadata.html.twig", "/Applications/MAMP/htdocs/ctms-grav/user/themes/ctms-theme/templates/partials/metadata.html.twig");
     }
 }

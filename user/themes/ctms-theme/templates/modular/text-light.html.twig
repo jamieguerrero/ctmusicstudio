@@ -1,0 +1,18 @@
+{% set headerimage = page.media.images | last %}
+{% set images = page.media.images | slice(start,length) %}
+
+<section>
+  <div class="section-wrapper section-light">
+    <div class="section-top">
+      <div class="section-top-wrapper right">
+          {{ headerimage.html('','', 'section-img img-light') }}
+      </div>
+    </div>
+
+    <div class="section-bottom">
+      <div class="section-bottom-wrapper left">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

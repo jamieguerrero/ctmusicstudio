@@ -1,0 +1,75 @@
+/* ===================line-height/type-scale functions===================== */
+
+html {
+  font-size: 12pt;
+  font-family: Qanelas-Regular;
+  font-weight: normal;
+  font-smoothing: antialiased !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: antialiased !important;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  -moz-osx-overflow-scrolling: touch;
+}
+
+@media screen and (min-width: 768px){
+	html {
+		font-size: 14pt;
+	}
+}
+
+$base-font-size: 1rem;
+$base-line-height: $base-font-size * 1.5;
+
+$tablet-width: 100%;
+$desktop-width: 80%;
+
+$line-height: (
+  0: $base-line-height,
+  1: $base-line-height * 1.25,
+  2: $base-line-height * 2
+);
+
+$type-scale: (
+  -1: 0.75rem,  // small text
+  0: 1rem,      // body text
+  1: 1.333rem,  // large text
+  1.5: 2rem,  // large text
+  2: 2.5rem  // main heading
+);
+
+
+@function line-height($level) {
+  @return map-get($line-height, $level);
+}
+
+@function type-scale($level) {
+  @return map-get($type-scale, $level);
+}
+
+@mixin type-setting($level: 0) {
+  font-size: type-scale($level);
+  line-height: line-height($level);
+}
+
+h1, h2 {
+	@include type-setting(1.5);
+  margin-top: $base-line-height;
+  margin-bottom: $base-line-height;
+	font-family: Qanelas-Bold;
+	text-transform: lowercase;
+};
+
+h2 {
+	@include type-setting(1);
+};
+
+p{
+	@include type-setting(0);
+	margin-bottom: $base-line-height;
+};
+
+li {
+	@include type-setting(0);
+}
+/* ============================================================= */

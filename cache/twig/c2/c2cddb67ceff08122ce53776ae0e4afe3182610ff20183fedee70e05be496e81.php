@@ -64,6 +64,6 @@ class __TwigTemplate_170d645a8afb496b7bcb221ef52c36ef714f20fc6eb9d8f4c3ee21aeb84
 {% block content %}
     {{ page.content }}
 {% endblock %}
-", "default.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/ctms-theme/templates/default.html.twig");
+", "default.html.twig", "/Applications/MAMP/htdocs/ctms-grav/user/themes/ctms-theme/templates/default.html.twig");
     }
 }
