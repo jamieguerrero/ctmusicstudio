@@ -1,9 +1,10 @@
 {% extends 'partials/base.html.twig' %}
 
-
 {% block content %}
 <section>
-	{{ page.content }}
-  {{ instagram_feed() }}
+  <div class="section-wrapper section-dark">
+		{{ page.content }}
+	  {{ instagram_feed() }}
+	</div>
 </section>
 {% endblock %}

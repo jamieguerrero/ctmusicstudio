@@ -22,11 +22,12 @@
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('theme://js/modernizr.custom.js', 98) %}
-        {% do assets.addJs('http://code.jquery.com/jquery-2.1.4.min.js', {'priority':97, 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/classie.js', {'priority':96, 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/demo1.js', {'priority':95, 'group':'bottom'}) %}
-        {% do assets.addJs('https://maps.googleapis.com/maps/api/js?key=AIzaSyCteI3pxDlyIjyTNGs4Vz-fL1Ed-Sg8JXw&callback=initMap', {'priority':92, 'loading':'async defer', 'group':'map'}) %}
+        {% do assets.addJs('theme://js/instafeed.min.js', 101) %}
+        {% do assets.addJs('theme://js/modernizr.custom.js', 100) %}
+        {% do assets.addJs('http://code.jquery.com/jquery-2.1.4.min.js', {'priority':99, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/classie.js', {'priority':98, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/demo1.js', {'priority':97, 'group':'bottom'}) %}
+        {% do assets.addJs('https://maps.googleapis.com/maps/api/js?key=AIzaSyCteI3pxDlyIjyTNGs4Vz-fL1Ed-Sg8JXw&callback=initMap', {'priority':95, 'loading':'async defer', 'group':'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 

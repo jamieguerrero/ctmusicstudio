@@ -7,7 +7,7 @@
 		"uuidString": "D0BB8270-9C86-49BC-AB05-7491008F0F54"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/.htaccess": {
 		"ft": 8192,
@@ -122,10 +122,12 @@
 	"\/images\/0\/4\/4\/e\/e\/044ee64a26e81b4b9e03bc933da959bf8b8a1b0a-rcm.png": {
 		"ft": 32768,
 		"iS": 38106,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/0\/4\/4\/e\/e\/044ee64a26e81b4b9e03bc933da959bf8b8a1b0a-rcm.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/1\/7\/e\/4\/7\/17e4722a39a6c324fa06511c6a029cbd4d0f06d5-pianokeys.jpeg": {
 		"ft": 16384,
@@ -133,7 +135,17 @@
 		"oA": 0,
 		"oAP": "\/images\/1\/7\/e\/4\/7\/17e4722a39a6c324fa06511c6a029cbd4d0f06d5-pianokeys.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/3\/7\/1\/a\/3\/371a3c245018fccefa5aac322f0e6bae4d396910-studiogear.jpeg": {
+		"ft": 16384,
+		"iS": 4506,
+		"oA": 0,
+		"oAP": "\/images\/3\/7\/1\/a\/3\/371a3c245018fccefa5aac322f0e6bae4d396910-studiogear.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/4\/0\/0\/1\/e\/4001e2c44f363250e86f3a5e33e285a97c3c4e2e-playingpiano.jpeg": {
 		"ft": 16384,
@@ -141,7 +153,8 @@
 		"oA": 0,
 		"oAP": "\/images\/4\/0\/0\/1\/e\/4001e2c44f363250e86f3a5e33e285a97c3c4e2e-playingpiano.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/4\/0\/4\/b\/3\/404b3b4abddeab72a540f7b3b72416c37934e714-microkorgkeys.jpeg": {
 		"ft": 16384,
@@ -149,7 +162,8 @@
 		"oA": 0,
 		"oAP": "\/images\/4\/0\/4\/b\/3\/404b3b4abddeab72a540f7b3b72416c37934e714-microkorgkeys.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/4\/9\/c\/5\/7\/49c5799236dd9b89ad7fbe9a232341fb67ddbe66-playingkorg.jpeg": {
 		"ft": 16384,
@@ -157,23 +171,28 @@
 		"oA": 0,
 		"oAP": "\/images\/4\/9\/c\/5\/7\/49c5799236dd9b89ad7fbe9a232341fb67ddbe66-playingkorg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/5\/5\/0\/d\/0\/550d06d58a1c93c62b801b50f94842d72e0d4fbb-rcm.png": {
 		"ft": 32768,
 		"iS": 138882,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/5\/5\/0\/d\/0\/550d06d58a1c93c62b801b50f94842d72e0d4fbb-rcm.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/7\/f\/7\/8\/0\/7f7808e3ac18c2cf2e5d79c661f735c2cb53927e-york.png": {
 		"ft": 32768,
 		"iS": 34151,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/7\/f\/7\/8\/0\/7f7808e3ac18c2cf2e5d79c661f735c2cb53927e-york.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/a\/b\/f\/6\/f\/abf6fc50c7fc6a11172c3dc784361b1ed18066b7-playingpiano.jpeg": {
 		"ft": 16384,
@@ -181,31 +200,56 @@
 		"oA": 0,
 		"oAP": "\/images\/a\/b\/f\/6\/f\/abf6fc50c7fc6a11172c3dc784361b1ed18066b7-playingpiano.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/b\/e\/7\/5\/0\/be7503187380a2cc6149e1029a0e213b6f8b5532-york.png": {
 		"ft": 32768,
 		"iS": 16095,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/b\/e\/7\/5\/0\/be7503187380a2cc6149e1029a0e213b6f8b5532-york.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/e\/8\/f\/8\/6\/e8f8689e485f02433680f27fc88492839ee33834-rcm.png": {
 		"ft": 32768,
 		"iS": 10618,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/e\/8\/f\/8\/6\/e8f8689e485f02433680f27fc88492839ee33834-rcm.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/e\/e\/7\/d\/8\/ee7d8e62504d9c3c87eb19d3a071fab2afa23e9c-york.png": {
 		"ft": 32768,
 		"iS": 10069,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/e\/e\/7\/d\/8\/ee7d8e62504d9c3c87eb19d3a071fab2afa23e9c-york.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/f\/9\/4\/8\/5\/f948529575904e9d3c6c6adf0086868006cb9f77-playingpiano.jpeg": {
+		"ft": 16384,
+		"iS": 4481,
+		"oA": 0,
+		"oAP": "\/images\/f\/9\/4\/8\/5\/f948529575904e9d3c6c6adf0086868006cb9f77-playingpiano.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/f\/b\/f\/8\/b\/fbf8b4103b4c1c6e7ace8b64712ade90c90f5b58-playingpiano.jpeg": {
+		"ft": 16384,
+		"iS": 4481,
+		"oA": 0,
+		"oAP": "\/images\/f\/b\/f\/8\/b\/fbf8b4103b4c1c6e7ace8b64712ade90c90f5b58-playingpiano.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.php": {
 		"ft": 8192,
@@ -268,10 +312,12 @@
 	"\/system\/assets\/grav.png": {
 		"ft": 32768,
 		"iS": 548,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/assets\/grav.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/assets\/jquery\/jquery-2.1.4.min.js": {
 		"ft": 64,
@@ -303,42 +349,52 @@
 	"\/system\/assets\/responsive-overlays\/1x.png": {
 		"ft": 32768,
 		"iS": 3238,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/assets\/responsive-overlays\/1x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/assets\/responsive-overlays\/2x.png": {
 		"ft": 32768,
 		"iS": 7593,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/assets\/responsive-overlays\/2x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/assets\/responsive-overlays\/3x.png": {
 		"ft": 32768,
 		"iS": 13002,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/assets\/responsive-overlays\/3x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/assets\/responsive-overlays\/4x.png": {
 		"ft": 32768,
 		"iS": 15545,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/assets\/responsive-overlays\/4x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/assets\/responsive-overlays\/unknown.png": {
 		"ft": 32768,
 		"iS": 5241,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/assets\/responsive-overlays\/unknown.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/assets\/whoops.css": {
 		"aP": 1,
@@ -485,122 +541,152 @@
 	"\/system\/images\/media\/thumb-doc.png": {
 		"ft": 32768,
 		"iS": 1352,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-doc.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-gif.png": {
 		"ft": 32768,
 		"iS": 1794,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-gif.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-gz.png": {
 		"ft": 32768,
 		"iS": 1157,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-gz.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-html.png": {
 		"ft": 32768,
 		"iS": 1063,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-html.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-jpeg.png": {
 		"ft": 32768,
 		"iS": 2002,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-jpeg.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-jpg.png": {
 		"ft": 32768,
 		"iS": 1924,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-jpg.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-m4v.png": {
 		"ft": 32768,
 		"iS": 1429,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-m4v.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-mov.png": {
 		"ft": 32768,
 		"iS": 1524,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-mov.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-mp4.png": {
 		"ft": 32768,
 		"iS": 1235,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-mp4.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-pdf.png": {
 		"ft": 32768,
 		"iS": 1100,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-pdf.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-png.png": {
 		"ft": 32768,
 		"iS": 2008,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-png.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-swf.png": {
 		"ft": 32768,
 		"iS": 1480,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-swf.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-txt.png": {
 		"ft": 32768,
 		"iS": 1070,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-txt.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb-zip.png": {
 		"ft": 32768,
 		"iS": 1100,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb-zip.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/images\/media\/thumb.png": {
 		"ft": 32768,
 		"iS": 123,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/system\/images\/media\/thumb.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/system\/languages\/ar.yaml": {
 		"ft": 8192,
@@ -1758,7 +1844,8 @@
 		"oA": 0,
 		"oAP": "\/user\/pages\/01.home\/_thelessons\/pianokeys.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/01.home\/_thelessons\/text-light.html": {
 		"ft": 8192,
@@ -1796,7 +1883,8 @@
 		"oA": 0,
 		"oAP": "\/user\/pages\/01.home\/_theservices\/playingkorg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/01.home\/_theservices\/text-dark.html": {
 		"ft": 8192,
@@ -1828,7 +1916,8 @@
 		"oA": 0,
 		"oAP": "\/user\/pages\/01.home\/_thestudio\/playingpiano.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/01.home\/_thestudio\/text-dark.md": {
 		"cS": 0,
@@ -1848,6 +1937,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/user\/pages\/01.home\/modular.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/pages\/01.home\/modular.html",
+		"oF": 0
+		},
 	"\/user\/pages\/01.home\/modular.md": {
 		"cS": 0,
 		"eF": 1,
@@ -1866,7 +1961,16 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/user\/pages\/02.lessons\/default.md": {
+	"\/user\/pages\/02.lessons\/_lessonpayments\/playingpiano.jpg": {
+		"ft": 16384,
+		"iS": 5271440,
+		"oA": 0,
+		"oAP": "\/user\/pages\/02.lessons\/_lessonpayments\/playingpiano.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/user\/pages\/02.lessons\/_lessonpayments\/text-dark.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -1875,7 +1979,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/user\/pages\/02.lessons\/default.html",
+		"oAP": "\/user\/pages\/02.lessons\/_lessonpayments\/text-dark.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1883,6 +1987,36 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/user\/pages\/02.lessons\/modular.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/pages\/02.lessons\/modular.html",
+		"oF": 0
+		},
+	"\/user\/pages\/02.lessons\/modular.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/user\/pages\/02.lessons\/modular.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/user\/pages\/03.services\/default.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/pages\/03.services\/default.html",
+		"oF": 0
 		},
 	"\/user\/pages\/03.services\/default.md": {
 		"cS": 0,
@@ -1902,6 +2036,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/user\/pages\/04.portal\/default.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/pages\/04.portal\/default.html",
+		"oF": 0
+		},
 	"\/user\/pages\/04.portal\/default.md": {
 		"cS": 0,
 		"eF": 1,
@@ -1919,6 +2059,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/user\/pages\/05.instagram\/instagram.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/pages\/05.instagram\/instagram.html",
+		"oF": 0
 		},
 	"\/user\/pages\/05.instagram\/instagram.md": {
 		"cS": 0,
@@ -1944,15 +2090,18 @@
 		"oA": 0,
 		"oAP": "\/user\/pages\/06.about\/_chynnainfo\/playingpiano.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/06.about\/_chynnainfo\/rcm.png": {
 		"ft": 32768,
 		"iS": 86508,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/pages\/06.about\/_chynnainfo\/rcm.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/06.about\/_chynnainfo\/text-chynnainfo.html": {
 		"ft": 8192,
@@ -1981,20 +2130,35 @@
 	"\/user\/pages\/06.about\/_chynnainfo\/york.png": {
 		"ft": 32768,
 		"iS": 18432,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/pages\/06.about\/_chynnainfo\/york.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/user\/pages\/06.about\/_studioinfo\/microkorgkeys.jpg": {
+	"\/user\/pages\/06.about\/_studioinfo\/studiogear.jpg": {
 		"ft": 16384,
-		"iS": 1792275,
+		"iS": 1891673,
 		"oA": 0,
-		"oAP": "\/user\/pages\/06.about\/_studioinfo\/microkorgkeys.jpg",
+		"oAP": "\/user\/pages\/06.about\/_studioinfo\/studiogear.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
-	"\/user\/pages\/06.about\/_studioinfo\/text-dark.md": {
+	"\/user\/pages\/06.about\/_studioinfo\/text-dark.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/pages\/06.about\/_studioinfo\/text-dark.html",
+		"oF": 0
+		},
+	"\/user\/pages\/06.about\/_studioinfo\/text-studioinfo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/pages\/06.about\/_studioinfo\/text-studioinfo.html",
+		"oF": 0
+		},
+	"\/user\/pages\/06.about\/_studioinfo\/text-studioinfo.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -2003,7 +2167,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/user\/pages\/06.about\/_studioinfo\/text-dark.html",
+		"oAP": "\/user\/pages\/06.about\/_studioinfo\/text-studioinfo.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -2011,6 +2175,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/user\/pages\/06.about\/modular.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/pages\/06.about\/modular.html",
+		"oF": 0
 		},
 	"\/user\/pages\/06.about\/modular.md": {
 		"cS": 0,
@@ -2030,14 +2200,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/user\/pages\/images\/cross.png": {
-		"ft": 32768,
-		"iS": 1163,
-		"oA": 0,
-		"oAP": "\/user\/pages\/images\/cross.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/user\/pages\/images\/ctms-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2053,14 +2215,6 @@
 		"oA": 2,
 		"oAP": "\/user\/pages\/images\/favicon.ico",
 		"oF": 0
-		},
-	"\/user\/pages\/images\/logo.png": {
-		"ft": 32768,
-		"iS": 1721,
-		"oA": 0,
-		"oAP": "\/user\/pages\/images\/logo.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/user\/pages\/images\/menu-x.svg": {
 		"ft": 2097152,
@@ -2078,7 +2232,8 @@
 		"oA": 0,
 		"oAP": "\/user\/pages\/images\/microkorgkeys.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/images\/mobile-button.svg": {
 		"ft": 2097152,
@@ -2096,7 +2251,8 @@
 		"oA": 0,
 		"oAP": "\/user\/pages\/images\/pianokeys.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/images\/playingkorg.jpg": {
 		"ft": 16384,
@@ -2104,7 +2260,8 @@
 		"oA": 0,
 		"oAP": "\/user\/pages\/images\/playingkorg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/images\/playingpiano.jpg": {
 		"ft": 16384,
@@ -2112,15 +2269,18 @@
 		"oA": 0,
 		"oAP": "\/user\/pages\/images\/playingpiano.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/images\/rcm.png": {
 		"ft": 32768,
 		"iS": 86508,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/pages\/images\/rcm.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/images\/studiogear.jpg": {
 		"ft": 16384,
@@ -2128,15 +2288,18 @@
 		"oA": 0,
 		"oAP": "\/user\/pages\/images\/studiogear.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/pages\/images\/york.png": {
 		"ft": 32768,
 		"iS": 18432,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/pages\/images\/york.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/.gitkeep": {
 		"ft": 8192,
@@ -2177,10 +2340,12 @@
 	"\/user\/plugins\/admin\/assets\/admin-dashboard.png": {
 		"ft": 32768,
 		"iS": 180920,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/admin\/assets\/admin-dashboard.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/admin\/blueprints.yaml": {
 		"ft": 8192,
@@ -3796,18 +3961,22 @@
 	"\/user\/plugins\/admin\/themes\/grav\/images\/favicon.png": {
 		"ft": 32768,
 		"iS": 1239,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/admin\/themes\/grav\/images\/favicon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/admin\/themes\/grav\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 13361,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/admin\/themes\/grav\/images\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/admin\/themes\/grav\/js\/admin.min.js": {
 		"ft": 64,
@@ -8276,7 +8445,8 @@
 		"oA": 0,
 		"oAP": "\/user\/plugins\/devtools\/components\/theme\/inheritence\/screenshot.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/devtools\/components\/theme\/inheritence\/templates\/.gitkeep": {
 		"ft": 8192,
@@ -8302,7 +8472,8 @@
 		"oA": 0,
 		"oAP": "\/user\/plugins\/devtools\/components\/theme\/inheritence\/thumbnail.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/devtools\/components\/theme\/pure-blank\/blueprints.yaml.twig": {
 		"ft": 8192,
@@ -8335,10 +8506,12 @@
 	"\/user\/plugins\/devtools\/components\/theme\/pure-blank\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 8714,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/devtools\/components\/theme\/pure-blank\/images\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/devtools\/components\/theme\/pure-blank\/js\/.gitkeep": {
 		"ft": 8192,
@@ -8364,7 +8537,8 @@
 		"oA": 0,
 		"oAP": "\/user\/plugins\/devtools\/components\/theme\/pure-blank\/screenshot.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/devtools\/components\/theme\/pure-blank\/templates\/default.html.twig": {
 		"ft": 8192,
@@ -8414,7 +8588,8 @@
 		"oA": 0,
 		"oAP": "\/user\/plugins\/devtools\/components\/theme\/pure-blank\/thumbnail.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/devtools\/devtools.php": {
 		"ft": 8192,
@@ -9837,10 +10012,12 @@
 	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/_samples\/files\/swiftmailer.png": {
 		"ft": 32768,
 		"iS": 3194,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/_samples\/files\/swiftmailer.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/_samples\/files\/textfile.zip": {
 		"ft": 8192,
@@ -10697,10 +10874,12 @@
 	"\/user\/plugins\/error\/assets\/readme_1.png": {
 		"ft": 32768,
 		"iS": 41685,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/error\/assets\/readme_1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/error\/blueprints.yaml": {
 		"ft": 8192,
@@ -11401,10 +11580,12 @@
 	"\/user\/plugins\/git-sync\/images\/gitsync-logo.png": {
 		"ft": 32768,
 		"iS": 6495,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/git-sync\/images\/gitsync-logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/git-sync\/images\/repos\/bitbucket.svg": {
 		"ft": 2097152,
@@ -13132,10 +13313,12 @@
 	"\/user\/plugins\/git-sync\/wizard.png": {
 		"ft": 32768,
 		"iS": 221783,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/git-sync\/wizard.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/git-sync\/yarn.lock": {
 		"ft": 8192,
@@ -15808,10 +15991,12 @@
 	"\/user\/plugins\/markdown-notices\/assets\/screenshot.png": {
 		"ft": 32768,
 		"iS": 86632,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/markdown-notices\/assets\/screenshot.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/markdown-notices\/blueprints.yaml": {
 		"ft": 8192,
@@ -15876,10 +16061,12 @@
 	"\/user\/plugins\/problems\/assets\/readme_1.png": {
 		"ft": 32768,
 		"iS": 72908,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/plugins\/problems\/assets\/readme_1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/plugins\/problems\/blueprints.yaml": {
 		"ft": 8192,
@@ -16325,10 +16512,12 @@
 	"\/user\/themes\/ctms-theme\/images\/cross.png": {
 		"ft": 32768,
 		"iS": 1163,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/images\/cross.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/images\/ctms-logo.svg": {
 		"ft": 2097152,
@@ -16349,10 +16538,12 @@
 	"\/user\/themes\/ctms-theme\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 8714,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/images\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/images\/menu-x.svg": {
 		"ft": 2097152,
@@ -16370,7 +16561,8 @@
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/images\/microkorgkeys.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/images\/mobile-button.svg": {
 		"ft": 2097152,
@@ -16388,7 +16580,8 @@
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/images\/pianokeys.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/images\/playingkorg.jpg": {
 		"ft": 16384,
@@ -16396,7 +16589,8 @@
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/images\/playingkorg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/images\/playingpiano.jpg": {
 		"ft": 16384,
@@ -16404,15 +16598,18 @@
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/images\/playingpiano.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/images\/rcm.png": {
 		"ft": 32768,
 		"iS": 86508,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/images\/rcm.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/images\/studiogear.jpg": {
 		"ft": 16384,
@@ -16420,15 +16617,18 @@
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/images\/studiogear.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/images\/york.png": {
 		"ft": 32768,
 		"iS": 18432,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/images\/york.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/js\/classie.js": {
 		"ft": 64,
@@ -16444,6 +16644,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/js\/min\/demo1-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/user\/themes\/ctms-theme\/js\/instafeed.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/user\/themes\/ctms-theme\/js\/min\/instafeed.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -16505,7 +16714,8 @@
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/screenshot.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/user\/themes\/ctms-theme\/scss\/.sass-cache\/aebacaacefc7b99cba443f1d59bd020d29c42dd8\/_base.scssc": {
 		"ft": 8192,
@@ -16638,6 +16848,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/user\/themes\/ctms-theme\/scss\/components\/_instagram.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/user\/themes\/ctms-theme\/scss\/css\/_instagram.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/user\/themes\/ctms-theme\/scss\/components\/_mobile_nav.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -16758,6 +16981,12 @@
 		"oAP": "\/user\/themes\/ctms-theme\/templates\/modular\/text-light.html.twig",
 		"oF": 0
 		},
+	"\/user\/themes\/ctms-theme\/templates\/modular\/text-studioinfo.html.twig": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/themes\/ctms-theme\/templates\/modular\/text-studioinfo.html.twig",
+		"oF": 0
+		},
 	"\/user\/themes\/ctms-theme\/templates\/modular\/text.html.twig": {
 		"ft": 8192,
 		"oA": 2,
@@ -16788,7 +17017,8 @@
 		"oA": 0,
 		"oAP": "\/user\/themes\/ctms-theme\/thumbnail.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/vendor\/antoligy\/dom-string-iterators\/composer.json": {
 		"ft": 524288,
@@ -17353,7 +17583,8 @@
 		"oA": 0,
 		"oAP": "\/vendor\/gregwar\/image\/Gregwar\/Image\/images\/error.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/vendor\/gregwar\/image\/Gregwar\/Image\/LICENSE": {
 		"ft": 8192,
@@ -23240,6 +23471,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -23437,6 +23672,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -23716,6 +23955,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -23767,6 +24010,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -23864,6 +24111,10 @@
 			"active": 0,
 			"optionString": "'never'"
 			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
 		"unicode-bom": {
 			"active": 0,
 			"optionString": "'never'"
@@ -23902,7 +24153,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost\/ctms-grav",
+	"externalServerAddress": "http:\/\/localhost\/ctmusicstudio-grav\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -24307,7 +24558,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -24400,7 +24652,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

@@ -420,3 +420,8 @@ a .img-dark:hover, a .img-light:hover {
     display: flex;
     vertical-align: bottom;
     justify-content: flex-end; } }
+
+.section-wrapper li {
+  list-style: none; }
+  .section-wrapper li img {
+    max-width: 100%; }

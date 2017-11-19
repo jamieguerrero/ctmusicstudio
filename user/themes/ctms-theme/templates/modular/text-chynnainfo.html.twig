@@ -1,20 +1,19 @@
-{% set headerimage = page.media.images | last %}
-{% set images = page.media.images | slice(0,1) %}
+{% set headerimage = page.media.images | first %}
+{% set images = page.media.images | slice(1,2) %}
 
 <section>
   <div class="section-wrapper section-light">
     <div class="section-top">
-      <div class="section-top-wrapper right">
+      <div class="section-top-wrapper left">
           {{ headerimage.html('','', 'section-img img-light') }}
       </div>
     </div>
 
     <div class="section-bottom">
-      <div class="section-bottom-wrapper left">
+      <div class="section-bottom-wrapper right">
         {{ content }}
-        {% set images = page.media.images | slice(start, length) %}
         {% for image in images %}
-            {{ image.html('','align-'~page.header.image_align, 'about-school img-dark') }}
+            {{ image.html('','', 'about-school img-dark') }}
         {% endfor %}
       </div>
     </div>
