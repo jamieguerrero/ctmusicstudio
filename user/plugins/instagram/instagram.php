@@ -81,7 +81,7 @@ class InstagramPlugin extends Plugin
         $this->cache = phpFastCache("files", $cache_config);
 
         // Generate API url
-        $url = 'https://api.instagram.com/v1/users/' . $config->get('feed_parameters.user_id') .'/media/recent/?access_token=' . $config->get('feed_parameters.access_token');
+        $url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=' . $config->get('feed_parameters.access_token').'&count=' . $config->get('feed_parameters.count');
 
         // Get the cached results if available
         $results = $this->cache->get($url);
@@ -100,7 +100,8 @@ class InstagramPlugin extends Plugin
             'user_id'   => $config->get('feed_parameters.user_id'),
             'client_id' => $config->get('feed_parameters.client_id'),
             'feed'      => $this->feeds,
-            'count'     => $config->get('feed_parameters.count')
+            'count'     => $config->get('feed_parameters.count'),
+            'params'    => $params
         ];
 
         $output = $this->grav['twig']->twig()->render($this->template_html, $this->template_vars);
@@ -126,7 +127,11 @@ class InstagramPlugin extends Plugin
                 $r[$created_at]['time'] = $created_at;
                 $r[$created_at]['text'] = $val['caption']['text'];
                 $r[$created_at]['image'] = $val['images']['standard_resolution']['url'];
+                $r[$created_at]['image_width'] = $val['images']['standard_resolution']['width'];
                 $r[$created_at]['thumb'] = $val['images']['low_resolution']['url'];
+                $r[$created_at]['thumb_width'] = $val['images']['low_resolution']['width'];
+                $r[$created_at]['micro'] = $val['images']['thumbnail']['url'];
+                $r[$created_at]['micro_width'] = $val['images']['thumbnail']['width'];
                 $r[$created_at]['user'] = $val['user']['full_name'];
                 $r[$created_at]['link'] = $val['link'];
                 $r[$created_at]['comments'] = $val['comments']['count'];

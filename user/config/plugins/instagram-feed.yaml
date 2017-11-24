@@ -1,0 +1,6 @@
+enabled: true
+route: /
+instagram_feed:
+  count: '100'
+  username: tinytricobigworld
+  cache_expires: 300

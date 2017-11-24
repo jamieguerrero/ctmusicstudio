@@ -1,5 +1,0 @@
----
-title: 'lesson payments'
----
-
-asdfasdfasdf

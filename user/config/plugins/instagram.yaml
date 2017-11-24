@@ -1,9 +1,9 @@
-enabled: true
+enabled: false
 route: /
 filters:
   category: null
 feed_parameters:
   count: 7
   cache_time: 1
-  user_id: '2325391953'
-  access_token: 2325391953.87569c4.8592d48f306c49ffb30f2c85780b3a60
+  user_id: 2efea29550434f6f8760a0822e761c53
+  access_token: 98bf909a5f7d487da96365405c2e6ff1

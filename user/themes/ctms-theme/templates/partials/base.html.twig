@@ -1,4 +1,4 @@
-<!-- Handmade with ♥ and Sass by jamieguerrero.com -->
+<!-- Handmade with ♥ and Grav by jamieguerrero.com -->
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
 <!DOCTYPE html>
 <html lang="{{ grav.language.getActive ?: theme_config.default_lang }}">
@@ -18,12 +18,14 @@
         {% do assets.addCss('http://yui.yahooapis.com/pure/0.6.0/pure-min.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', 99) %}
         {% do assets.addCss('theme://css/main.css', 98) %}
+        {% do assets.addCss('https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css', 97) %}
     {% endblock %}
     {{ assets.css() }}
 
     {% block javascripts %}
         {% do assets.addJs('theme://js/instafeed.min.js', 101) %}
         {% do assets.addJs('theme://js/modernizr.custom.js', 100) %}
+        {% do assets.addJs('https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', 99) %}
         {% do assets.addJs('http://code.jquery.com/jquery-2.1.4.min.js', {'priority':99, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/classie.js', {'priority':98, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/demo1.js', {'priority':97, 'group':'bottom'}) %}
@@ -55,7 +57,10 @@
     </nav>
     {% endblock %}
   <!-- Logo + Title -->
-  <img class="logo-img" src="{{url('theme://images/ctms-logo.svg')}}">
+  <img class="logo-img" src="{{url('theme://images/ctms-logo-2018.svg')}}">
+  <div class="arrow bounce">
+    <a class="fa fa-arrow-down fa-2x" href="#"></a>
+  </div>
   <!-- Mobile Nav Button -->
   <div class="mobile-nav">
     <a id="trigger-overlay" class="menu-button" type="button" href="#"><img class="mobile-button" src="{{url('theme://images/mobile-button.svg')}}"></a>
@@ -80,18 +85,20 @@
 {% block footer %}
 <footer>
   <div class="footer-wrapper section-mid">
-    <div class="contact-wrapper">
-      <!-- CONTACT phone # and email link -->
-      <h1>CONTACT</h1>
-      <!-- CONTACT form -->
-      <a href="mailto:chynna@ctmusicstudio.com?Subject=Hi%20there">chynna@ctmusicstudio.com</a>
+    <div class="footer--innerwrapper" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500" >
+      <div class="contact-wrapper">
+        <!-- CONTACT phone # and email link -->
+        <h1>CONTACT</h1>
+        <!-- CONTACT form -->
+        <a href="mailto:chynna@ctmusicstudio.ca?Subject=Hi%20there">chynna@ctmusicstudio.com</a>
+      </div>
+      <form method="POST" name="contactform" action="http://formspree.io/chynna@ctmusicstudio.ca">
+        <input class="contact-form" type="text" name="name" placeholder="name">
+        <input class="contact-form" type="text" name="email" placeholder="email">
+        <textarea class="contact-form contact-content" name="message" placeholder="message"></textarea>
+        <input class="contact-form contact-button" type="submit" name="submit"><br>
+      </form>
     </div>
-    <form method="POST" name="contactform" action="http://formspree.io/chynna@ctmusicstudio.com">
-      <input class="contact-form" type="text" name="name" placeholder="name">
-      <input class="contact-form" type="text" name="email" placeholder="email">
-      <textarea class="contact-form contact-content" name="message" placeholder="message"></textarea>
-      <input class="contact-form contact-button" type="submit" name="submit"><br>
-    </form>
   </div>
 </footer>
 {% endblock %}
@@ -99,30 +106,9 @@
 <!--content-wrapper div end-->
 {% block bottom %}
     {{ assets.js('bottom') }}
-    <script type="text/javascript">
-    $(document).ready(function() {
-
-      /* Every time the window is scrolled ... */
-      $(window).scroll( function(){
-
-          /* Check the location of each desired element */
-          $('.hideme').each( function(i){
-
-              var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-              var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-              /* If the object is completely visible in the window, fade it it */
-              if( bottom_of_window > bottom_of_object ){
-
-                  $(this).animate({'opacity':'1'},500);
-
-              }
-
-          });
-      });
-    });
-    </script>
     <script>
+      AOS.init();
+
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {

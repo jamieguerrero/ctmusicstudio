@@ -1,3 +1,19 @@
+# v1.3.0
+## 11/10/2017
+
+* [New Feature] Adds parameters to twig template 
+
+# v1.2.2
+## 11/10/2017
+
+* [New Feature] Adds more info from the Instagram API
+* [New Feature] Limit feed item amount to 20 due to Instagram API restrictions
+
+# v1.2.1
+## 10/24/2017
+
+* [Bux Fix] Fix page not found error
+
 # v1.2.0
 ## 01/31/2017
 
