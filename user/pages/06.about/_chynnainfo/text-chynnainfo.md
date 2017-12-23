@@ -1,8 +1,5 @@
 ---
-title: ''
-body_classes: ''
-order_by: ''
-order_manual: ''
+media_order: 'chynna-piano-smiling-edit.jpg,york.png,rcm.png,text-chynnainfo.html'
 ---
 
 ##chynna tolibas

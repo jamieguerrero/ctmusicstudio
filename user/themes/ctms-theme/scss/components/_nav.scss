@@ -4,7 +4,7 @@
   #full-nav {
     margin-top: -2.5rem;
     padding-top: 2.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
     display: flex;
     width: $tablet-width;
 
@@ -13,6 +13,14 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+
+      li.selected {
+          font-weight: bold;
+
+          a {
+            color: font-color('accent')
+          }
+      }
 
       a {
         font-family: Qanelas-Regular;

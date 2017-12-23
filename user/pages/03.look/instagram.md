@@ -1,4 +1,5 @@
 ---
 title: look
+visible: false
 ---
 
