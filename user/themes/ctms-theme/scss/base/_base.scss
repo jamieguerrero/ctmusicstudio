@@ -6,6 +6,11 @@
 	margin: 0px;
 }
 
+::selection {
+	color: font-color('light');
+	background-color: font-color('accent');
+}
+
 a {
 	font-family: Qanelas-Semibold;
 	text-decoration: none;

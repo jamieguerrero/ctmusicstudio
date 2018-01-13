@@ -26,11 +26,12 @@
         font-family: Qanelas-Regular;
         @include type-setting(0);
         text-decoration: none;
-        color: font-color('dark');
+        color: font-color('light');
       }
 
       a:hover {
-        color: font-color('accent');
+        color: font-color('light');
+        font-weight: bold;
       }
     }
   }
@@ -39,7 +40,7 @@
 @media screen and (min-width: 768px) {
 
   #full-nav {
-    width: $desktop-width;
+    padding: 1rem 13rem;
   }
 }
 
@@ -47,6 +48,8 @@
   z-index: 999;
 }
 
-.full-nav__wrapper.section-light {
-  background-color: red;
+.full-nav__wrapper {
+  background-color: #c10000;
+  display: flex;
+  justify-content: center;
 }

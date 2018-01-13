@@ -184,6 +184,10 @@ li {
   width: 100%;
   margin: 0px; }
 
+::selection {
+  color: #FFFFFF;
+  background-color: #AA0000; }
+
 a {
   font-family: Qanelas-Semibold;
   text-decoration: none;
@@ -393,19 +397,22 @@ a .img-dark:hover, a .img-light:hover {
         font-size: 1rem;
         line-height: 1.5rem;
         text-decoration: none;
-        color: #333; }
+        color: #FFFFFF; }
       #full-nav ul a:hover {
-        color: #AA0000; } }
+        color: #FFFFFF;
+        font-weight: bold; } }
 
 @media screen and (min-width: 768px) {
   #full-nav {
-    width: 80%; } }
+    padding: 1rem 13rem; } }
 
 #sticky-wrapper {
   z-index: 999; }
 
-.full-nav__wrapper.section-light {
-  background-color: red; }
+.full-nav__wrapper {
+  background-color: #c10000;
+  display: flex;
+  justify-content: center; }
 
 a {
   color: black;

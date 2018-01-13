@@ -22,6 +22,7 @@
     {{ assets.css() }}
 
     {% block javascripts %}
+        {% do assets.addJs('theme://js/zenscroll-min.js', 102) %}
         {% do assets.addJs('theme://js/instafeed.min.js', 101) %}
         {% do assets.addJs('theme://js/modernizr.custom.js', 100) %}
         {% do assets.addJs('https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', 99) %}
@@ -29,7 +30,7 @@
         {% do assets.addJs('theme://js/jquery.sticky.js', {'priority':98, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/classie.js', {'priority':97, 'group':'bottom'}) %}
         {% do assets.addJs('theme://js/demo1.js', {'priority':96, 'group':'bottom'}) %}
-        {% do assets.addJs('https://maps.googleapis.com/maps/api/js?key=AIzaSyC6M62PK7x0Ow_McUaaptbj4YsuGNv1PuY&callback=initMap', {'priority':95, 'loading':'async defer', 'group':'bottom'}) %}
+        {% do assets.addJs('https://maps.googleapis.com/maps/api/js?key=AIzaSyCteI3pxDlyIjyTNGs4Vz-fL1Ed-Sg8JXw&callback=initMap', {'priority':95, 'loading':'async defer', 'group':'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -64,7 +65,7 @@
 </header>
 <!-- Full Nav -->
 {% block header_navigation %}
-<div class="full-nav__wrapper section-light">
+<div class="full-nav__wrapper">
   <nav id="full-nav">
       {% include 'partials/navigation.html.twig' %}
   </nav>
@@ -121,7 +122,7 @@
       $(document).ready(function(){
         $('.full-nav__wrapper').sticky({topSpacing:0});
         $(".logo-img").animate({"opacity": "1"}, 700);
-        $(".arrow").delay(1500).animate({"opacity": "1"}, 700);
+        $(".arrow").delay(2000).animate({"opacity": "1"}, 700);
       })
     </script>
     <script>
