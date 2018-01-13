@@ -61,3 +61,9 @@ img.nav-logo {
     left: -4rem;
     position: relative;
 }
+
+@media screen and (max-width: 550px) {
+  img.nav-logo {
+    display: none;
+  }
+}
