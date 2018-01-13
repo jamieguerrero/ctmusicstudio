@@ -35,12 +35,13 @@
 	min-height: 100%;
 	align-items: center;
 	text-align: center;
-	height: 100vh;
+	// height: 100vh;
 }
 
 @media screen and (max-width: 550px) {
 	.header-wrapper {
 		padding-top: 50%;
+		padding-bottom: 50%;
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
@@ -51,7 +52,7 @@
 		padding: 16rem 4rem 0rem 4rem;
 	}
 	.header-wrapper {
-		height: 69vh;
+		height: 68vh;
 	}
 
 	.section-wrapper, .footer-wrapper {
@@ -66,8 +67,5 @@
 
 	.section-wrapper, .footer-wrapper {
 		padding: 5rem 6rem 5rem 6rem;
-	}
-	.header-wrapper {
-		height: 89vh;
 	}
 }

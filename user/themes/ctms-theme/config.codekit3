@@ -404,11 +404,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ctms-logo.svg": {
+	"\/images\/ctms-logo-only.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ctms-logo.svg",
+		"oAP": "\/images\/ctms-logo-only.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -903,11 +903,18 @@
 		"oAP": "\/templates\/modular.html.twig",
 		"oF": 0
 		},
-	"\/templates\/modular\/text-chynnainfo.html.twig": {
+	"\/templates\/modular\/text-center-dark.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/modular\/text-chynnainfo.html.twig",
+		"oAP": "\/templates\/modular\/text-center-dark.html.twig",
+		"oF": 0
+		},
+	"\/templates\/modular\/text-center-light.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/templates\/modular\/text-center-light.html.twig",
 		"oF": 0
 		},
 	"\/templates\/modular\/text-contact.html.twig": {
@@ -915,13 +922,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/templates\/modular\/text-contact.html.twig",
-		"oF": 0
-		},
-	"\/templates\/modular\/text-dark.html.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/templates\/modular\/text-dark.html.twig",
 		"oF": 0
 		},
 	"\/templates\/modular\/text-light.html.twig": {

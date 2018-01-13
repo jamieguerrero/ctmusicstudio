@@ -152,12 +152,12 @@ li {
   flex-direction: column;
   min-height: 100%;
   align-items: center;
-  text-align: center;
-  height: 100vh; }
+  text-align: center; }
 
 @media screen and (max-width: 550px) {
   .header-wrapper {
     padding-top: 50%;
+    padding-bottom: 50%;
     padding-left: 1rem;
     padding-right: 1rem; } }
 
@@ -165,7 +165,7 @@ li {
   .header-wrapper {
     padding: 16rem 4rem 0rem 4rem; }
   .header-wrapper {
-    height: 69vh; }
+    height: 68vh; }
   .section-wrapper, .footer-wrapper {
     padding: 5rem 4rem 5rem 4rem; } }
 
@@ -173,9 +173,7 @@ li {
   .header-wrapper {
     padding: 14rem 6rem 0rem 6rem; }
   .section-wrapper, .footer-wrapper {
-    padding: 5rem 6rem 5rem 6rem; }
-  .header-wrapper {
-    height: 89vh; } }
+    padding: 5rem 6rem 5rem 6rem; } }
 
 #content-wrapper {
   display: flex;
@@ -237,7 +235,7 @@ a .img-dark:hover, a .img-light:hover {
   height: 2.25rem;
   width: 30%; }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .logo-img {
     max-width: 300px; }
   .section-img {
@@ -247,7 +245,8 @@ a .img-dark:hover, a .img-light:hover {
   .section-top {
     width: 100%; }
   .section-bottom-wrapper {
-    width: 50%; }
+    width: 60%;
+    margin: 0px auto; }
   .right {
     float: right;
     text-align: right; }
@@ -382,12 +381,15 @@ a .img-dark:hover, a .img-light:hover {
     display: none; }
   #full-nav {
     display: flex;
-    width: 100%; }
+    width: 100%;
+    padding: .25rem 5rem; }
     #full-nav ul {
       width: 100%;
       display: flex;
       flex-direction: row;
-      justify-content: space-between; }
+      justify-content: space-evenly; }
+      #full-nav ul li {
+        align-self: center; }
       #full-nav ul li.selected {
         font-weight: bold; }
         #full-nav ul li.selected a {
@@ -402,10 +404,6 @@ a .img-dark:hover, a .img-light:hover {
         color: #FFFFFF;
         font-weight: bold; } }
 
-@media screen and (min-width: 768px) {
-  #full-nav {
-    padding: 1rem 13rem; } }
-
 #sticky-wrapper {
   z-index: 999; }
 
@@ -413,6 +411,11 @@ a .img-dark:hover, a .img-light:hover {
   background-color: #c10000;
   display: flex;
   justify-content: center; }
+
+img.nav-logo {
+  height: 2rem;
+  left: -4rem;
+  position: relative; }
 
 a {
   color: black;

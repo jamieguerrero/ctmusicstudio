@@ -71,7 +71,7 @@ a .img-dark:hover, a .img-light:hover{
   width: 30%;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 768px){
 	.logo-img, {
 		max-width: 300px;
 	}
@@ -89,7 +89,8 @@ a .img-dark:hover, a .img-light:hover{
 	}
 
 	.section-bottom-wrapper {
-			width: 50%;
+			width: 60%;
+			margin: 0px auto;
 	}
 
 	.right {
