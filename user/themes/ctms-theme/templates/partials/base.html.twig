@@ -15,7 +15,6 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
-        {% do assets.addCss('http://yui.yahooapis.com/pure/0.6.0/pure-min.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', 99) %}
         {% do assets.addCss('theme://css/main.css', 98) %}
         {% do assets.addCss('https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css', 97) %}
@@ -27,9 +26,10 @@
         {% do assets.addJs('theme://js/modernizr.custom.js', 100) %}
         {% do assets.addJs('https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', 99) %}
         {% do assets.addJs('http://code.jquery.com/jquery-2.1.4.min.js', {'priority':99, 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/classie.js', {'priority':98, 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/demo1.js', {'priority':97, 'group':'bottom'}) %}
-        {% do assets.addJs('https://maps.googleapis.com/maps/api/js?key=AIzaSyCteI3pxDlyIjyTNGs4Vz-fL1Ed-Sg8JXw&callback=initMap', {'priority':95, 'loading':'async defer', 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/jquery.sticky.js', {'priority':98, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/classie.js', {'priority':97, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/demo1.js', {'priority':96, 'group':'bottom'}) %}
+        {% do assets.addJs('https://maps.googleapis.com/maps/api/js?key=AIzaSyC6M62PK7x0Ow_McUaaptbj4YsuGNv1PuY&callback=initMap', {'priority':95, 'loading':'async defer', 'group':'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -50,15 +50,10 @@
 </div>
 <!-- everything centered on mobile -->
 <header class="header-wrapper section-light">
-  <!-- Full Nav -->
-    {% block header_navigation %}
-    <nav id="full-nav">
-        {% include 'partials/navigation.html.twig' %}
-    </nav>
-    {% endblock %}
   <!-- Logo + Title -->
   <img class="logo-img" src="{{url('theme://images/ctms-logo-2018.svg')}}">
-  <div class="arrow bounce">
+  <!-- Add Social buttons -->
+  <div id="bouncing-arrow" class="arrow bounce">
     <a class="fa fa-arrow-down fa-2x" href="#"></a>
   </div>
   <!-- Mobile Nav Button -->
@@ -67,6 +62,14 @@
   </div>
 
 </header>
+<!-- Full Nav -->
+{% block header_navigation %}
+<div class="full-nav__wrapper section-light">
+  <nav id="full-nav">
+      {% include 'partials/navigation.html.twig' %}
+  </nav>
+</div>
+{% endblock %}
 {% endblock %}
 
 {% block body %}
@@ -83,12 +86,13 @@
 {% endblock  %}
 
 {% block footer %}
-<footer>
+<footer id="footer">
   <div class="footer-wrapper section-mid">
-    <div class="footer--innerwrapper" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500" >
+    <div class="footer--innerwrapper">
+    <!-- <div class="footer--innerwrapper" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500" > -->
       <div class="contact-wrapper">
         <!-- CONTACT phone # and email link -->
-        <h1>CONTACT</h1>
+        <h1>get in touch today!</h1>
         <!-- CONTACT form -->
         <a href="mailto:chynna@ctmusicstudio.ca?Subject=Hi%20there">chynna@ctmusicstudio.ca</a>
       </div>
@@ -106,6 +110,20 @@
 <!--content-wrapper div end-->
 {% block bottom %}
     {{ assets.js('bottom') }}
+    <!-- <script>
+      $(document).ready(function(){
+        $(document).scroll(function() {
+          $('.logo-img').css({width: $(this).scrollTop() > 100? "30%":"100%"});
+        });
+      });
+    </script> -->
+    <script>
+      $(document).ready(function(){
+        $('.full-nav__wrapper').sticky({topSpacing:0});
+        $(".logo-img").animate({"opacity": "1"}, 700);
+        $(".arrow").delay(1500).animate({"opacity": "1"}, 700);
+      })
+    </script>
     <script>
       AOS.init();
 

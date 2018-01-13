@@ -19,6 +19,7 @@ a:hover {
 
 .logo-img {
 	max-width: 200px;
+	opacity: 0;
 }
 
 .section-img {
@@ -49,6 +50,7 @@ a .img-dark:hover, a .img-light:hover{
 	height: $base-line-height;
 	width: 100%;
 	margin-top: $base-line-height;
+	padding: 1rem;
 }
 
 .contact-content {

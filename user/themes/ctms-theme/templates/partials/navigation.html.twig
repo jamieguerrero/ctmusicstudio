@@ -1,3 +1,8 @@
+{#
+
+Commented out cuz Chynna doesn't want separate pages. She just wants one.
+This code is bomb cuz it takes all visible pages and creates a nice ul
+
 {% macro loop(page) %}
     {% for p in page.children.visible %}
         {% set current_page = (p.active or p.activeChild) ? 'selected' : '' %}
@@ -44,5 +49,24 @@
             </a>
         </li>
     {% endfor %}
-</ul>
+</ul> #}
 
+{# Hardcoded pages for the one pager #}
+
+<ul>
+    <li>
+        <a href="#_thestudio">about</a>
+    </li>
+    <li>
+        <a href="#_chynnainfo">chynna</a>
+    </li>
+    <li>
+        <a href="#_theservices">services</a>
+    </li>
+    <li>
+        <a href="#_portal">portal</a>
+    </li>
+    <li>
+        <a href="#footer">contact</a>
+    </li>
+</ul>

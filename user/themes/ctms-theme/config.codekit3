@@ -366,6 +366,13 @@
 		"oAP": "\/fonts\/Qanelas-Semibold\/qanelassoft-semibold-webfont.woff2",
 		"oF": 0
 		},
+	"\/images\/.playingkorg.jpg.icloud": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/.playingkorg.jpg.icloud",
+		"oF": 0
+		},
 	"\/images\/chynna-piano-smiling.jpg": {
 		"ft": 16384,
 		"iS": 405640,
@@ -465,16 +472,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/playingkorg.jpg": {
-		"ft": 16384,
-		"iS": 3602344,
-		"oA": 0,
-		"oAP": "\/images\/playingkorg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/playingpiano.jpg": {
 		"ft": 16384,
 		"iS": 5271440,
@@ -543,6 +540,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/instafeed.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery.sticky.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.sticky-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -893,6 +900,13 @@
 		"oAP": "\/templates\/modular\/text-chynnainfo.html.twig",
 		"oF": 0
 		},
+	"\/templates\/modular\/text-contact.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/templates\/modular\/text-contact.html.twig",
+		"oF": 0
+		},
 	"\/templates\/modular\/text-dark.html.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -907,11 +921,11 @@
 		"oAP": "\/templates\/modular\/text-light.html.twig",
 		"oF": 0
 		},
-	"\/templates\/modular\/text-studioinfo.html.twig": {
+	"\/templates\/modular\/text-portal.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/modular\/text-studioinfo.html.twig",
+		"oAP": "\/templates\/modular\/text-portal.html.twig",
 		"oF": 0
 		},
 	"\/templates\/modular\/text.html.twig": {

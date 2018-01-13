@@ -9,6 +9,7 @@ content:
             - _lessons
             - _events
             - _production
+published: false
 menu: services
 onpage_menu: true
 ---

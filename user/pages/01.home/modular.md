@@ -7,8 +7,11 @@ content:
         dir: asc
         custom:
             - _thestudio
-            - _thelessons
+            - _chynnainfo
             - _theservices
+            - _portal
+            - _contact
+
 menu: home
 onpage_menu: true
 ---

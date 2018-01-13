@@ -1,8 +1,5 @@
 ---
-title: ''
-body_classes: ''
-order_by: ''
-order_manual: ''
+title: '_studioinfo'
 ---
 
 ##studio info

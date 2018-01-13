@@ -1,14 +1,11 @@
 ---
-title: ''
-media_order: ''
-body_classes: ''
-order_by: ''
-order_manual: ''
+title: _thelessons
+published: false
 ---
 
 # [the lessons](/services#lessons)
 
-## studio hours 
+## studio hours
 <div class="schedule">
   <div class="sched-row">
     <p class="sched-date">MONDAY</p>

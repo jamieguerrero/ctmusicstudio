@@ -81,6 +81,9 @@ table {
   font-weight: italic;
   font-style: italic; }
 
+strong {
+  font-weight: bold; }
+
 /* ===================line-height/type-scale functions===================== */
 html {
   font-size: 12pt;
@@ -119,7 +122,7 @@ li {
 
 /* ============================================================= */
 /*===================== Color =====================*/
-.header-wrapper, .section-wrapper, .footer-wrapper {
+.section-wrapper, .footer-wrapper {
   padding: 8rem 1rem 8rem 1rem;
   display: flex;
   flex-direction: column;
@@ -143,14 +146,36 @@ li {
   height: 9rem;
   z-index: 100; }
 
-/* =========== Map Styling =========== */
+/* =========== Header, Footer, Section Layout =========== */
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
+  text-align: center;
+  height: 100vh; }
+
+@media screen and (max-width: 550px) {
+  .header-wrapper {
+    padding-top: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem; } }
+
 @media screen and (min-width: 550px) {
-  .header-wrapper, .section-wrapper, .footer-wrapper {
+  .header-wrapper {
+    padding: 16rem 4rem 0rem 4rem; }
+  .header-wrapper {
+    height: 69vh; }
+  .section-wrapper, .footer-wrapper {
     padding: 5rem 4rem 5rem 4rem; } }
 
 @media screen and (min-width: 768px) {
-  .header-wrapper, .section-wrapper, .footer-wrapper {
-    padding: 5rem 6rem 5rem 6rem; } }
+  .header-wrapper {
+    padding: 14rem 6rem 0rem 6rem; }
+  .section-wrapper, .footer-wrapper {
+    padding: 5rem 6rem 5rem 6rem; }
+  .header-wrapper {
+    height: 89vh; } }
 
 #content-wrapper {
   display: flex;
@@ -169,7 +194,8 @@ a:hover {
   text-decoration: underline; }
 
 .logo-img {
-  max-width: 200px; }
+  max-width: 200px;
+  opacity: 0; }
 
 .section-img {
   max-width: 100%;
@@ -193,7 +219,8 @@ a .img-dark:hover, a .img-light:hover {
   border: 1px #333 solid;
   height: 1.5rem;
   width: 100%;
-  margin-top: 1.5rem; }
+  margin-top: 1.5rem;
+  padding: 1rem; }
 
 .contact-content {
   height: 6rem; }
@@ -350,9 +377,6 @@ a .img-dark:hover, a .img-light:hover {
   .mobile-button {
     display: none; }
   #full-nav {
-    margin-top: -2.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 10rem;
     display: flex;
     width: 100%; }
     #full-nav ul {
@@ -377,6 +401,12 @@ a .img-dark:hover, a .img-light:hover {
   #full-nav {
     width: 80%; } }
 
+#sticky-wrapper {
+  z-index: 999; }
+
+.full-nav__wrapper.section-light {
+  background-color: red; }
+
 a {
   color: black;
   text-decoration: none; }
@@ -384,7 +414,8 @@ a {
 .arrow {
   text-align: center;
   margin-top: 10rem;
-  bottom: 10px; }
+  bottom: 10px;
+  opacity: 0; }
 
 .bounce {
   -moz-animation: bounce 2s infinite;

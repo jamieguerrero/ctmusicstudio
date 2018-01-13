@@ -2,9 +2,9 @@
   .mobile-button { display: none; }
 
   #full-nav {
-    margin-top: -2.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 10rem;
+    // margin-top: -2.5rem;
+    // padding-top: 2.5rem;
+    // padding-bottom: 10rem;
     display: flex;
     width: $tablet-width;
 
@@ -41,4 +41,12 @@
   #full-nav {
     width: $desktop-width;
   }
+}
+
+#sticky-wrapper {
+  z-index: 999;
+}
+
+.full-nav__wrapper.section-light {
+  background-color: red;
 }

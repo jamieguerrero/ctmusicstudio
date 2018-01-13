@@ -8,6 +8,8 @@ content:
         custom:
             - _studioinfo
             - _chynnainfo
+published: false
 menu: about
 onpage_menu: true
 ---
+

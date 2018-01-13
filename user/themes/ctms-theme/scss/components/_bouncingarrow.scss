@@ -4,7 +4,9 @@ a { color: black; text-decoration: none; }
   text-align: center;
   margin-top: 10rem;
   bottom: 10px;
+  opacity: 0;
 }
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;

@@ -1,6 +1,5 @@
 ---
-title: portal
-published: false
+title: '_portal'
 ---
 
 <h1 style="text-align: center" data-aos="fade-up">enter studio portal</h1>

@@ -1,4 +1,5 @@
 ---
+title: '_chynnainfo'
 media_order: 'chynna-piano-smiling-edit.jpg,york.png,rcm.png,text-chynnainfo.html'
 ---
 
