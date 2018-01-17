@@ -1,5 +1,5 @@
 .section-wrapper, .footer-wrapper {
-	padding: 8rem 1rem 8rem 1rem;
+	padding: 8rem 2rem 8rem 2rem;
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
@@ -32,39 +32,26 @@
 .header-wrapper {
 	display: flex;
 	flex-direction: column;
-	min-height: 100%;
+	min-height: 100vh;
 	align-items: center;
 	text-align: center;
-	// height: 100vh;
+	justify-content: center;
 }
 
 @media screen and (max-width: 550px) {
 	.header-wrapper {
-		padding-top: 50%;
-		padding-bottom: 50%;
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
 }
 
 @media screen and (min-width: 550px) {
-	.header-wrapper {
-		padding: 16rem 4rem 0rem 4rem;
-	}
-	.header-wrapper {
-		height: 68vh;
-	}
-
 	.section-wrapper, .footer-wrapper {
 		padding: 5rem 4rem 5rem 4rem;
 	}
 }
 
 @media screen and (min-width: 768px) {
-	.header-wrapper {
-		padding: 14rem 6rem 0rem 6rem;
-	}
-
 	.section-wrapper, .footer-wrapper {
 		padding: 5rem 6rem 5rem 6rem;
 	}

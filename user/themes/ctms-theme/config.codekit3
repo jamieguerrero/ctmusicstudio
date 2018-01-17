@@ -366,13 +366,6 @@
 		"oAP": "\/fonts\/Qanelas-Semibold\/qanelassoft-semibold-webfont.woff2",
 		"oF": 0
 		},
-	"\/images\/.playingkorg.jpg.icloud": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/images\/.playingkorg.jpg.icloud",
-		"oF": 0
-		},
 	"\/images\/chynna-piano-smiling.jpg": {
 		"ft": 16384,
 		"iS": 405640,
@@ -472,6 +465,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/playingkorg.jpg": {
+		"ft": 16384,
+		"iS": 3602344,
+		"oA": 0,
+		"oAP": "\/images\/playingkorg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/playingpiano.jpg": {
 		"ft": 16384,
 		"iS": 5271440,
@@ -518,7 +521,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/classie-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -528,7 +531,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/demo1-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -538,7 +541,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/instafeed.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -548,19 +551,19 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/jquery.sticky-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/main-min.js": {
+	"\/js\/main.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/main-min-min.js",
-		"oF": 0,
+		"oAP": "\/js\/min\/main-min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
@@ -578,7 +581,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/modernizr.custom-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -588,7 +591,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/zenscroll-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -621,7 +624,7 @@
 		},
 	"\/screenshot.jpg": {
 		"ft": 16384,
-		"iS": 15428,
+		"iS": 62224,
 		"oA": 0,
 		"oAP": "\/screenshot.jpg",
 		"oF": 0,
@@ -968,7 +971,7 @@
 		},
 	"\/thumbnail.jpg": {
 		"ft": 16384,
-		"iS": 3681,
+		"iS": 41818,
 		"oA": 0,
 		"oAP": "\/thumbnail.jpg",
 		"oF": 0,
@@ -980,6 +983,44 @@
 "hooks": [
 	],
 "manualImportLinks": {
+	"\/js\/main.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/jquery.sticky.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/modernizr.custom.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/zenscroll-min.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/instafeed.min.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/classie.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/demo1.js",
+			"position": 5,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"creationDate": 535680972,

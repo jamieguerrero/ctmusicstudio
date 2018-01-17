@@ -22,14 +22,10 @@
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('theme://js/zenscroll-min.js', 102) %}
-        {% do assets.addJs('theme://js/instafeed.min.js', 101) %}
-        {% do assets.addJs('theme://js/modernizr.custom.js', 100) %}
-        {% do assets.addJs('https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', 99) %}
-        {% do assets.addJs('http://code.jquery.com/jquery-2.1.4.min.js', {'priority':99, 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/jquery.sticky.js', {'priority':98, 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/classie.js', {'priority':97, 'group':'bottom'}) %}
-        {% do assets.addJs('theme://js/demo1.js', {'priority':96, 'group':'bottom'}) %}
+        {% do assets.addJs('http://code.jquery.com/jquery-2.1.4.min.js', {'priority':101, 'group':'bottom'}) %}
+        {% do assets.addJs('theme://js/min/main-min.js', {'priority':100, 'group':'bottom'}) %}
+        {% do assets.addJs('https://use.fontawesome.com/releases/v5.0.4/js/all.js', 99) %}
+        {% do assets.addJs('https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', 98) %}
         {% do assets.addJs('https://maps.googleapis.com/maps/api/js?key=AIzaSyCteI3pxDlyIjyTNGs4Vz-fL1Ed-Sg8JXw&callback=initMap', {'priority':95, 'loading':'async defer', 'group':'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
@@ -53,16 +49,20 @@
 <header class="header-wrapper section-light">
   <!-- Logo + Title -->
   <img class="logo-img" src="{{url('theme://images/ctms-logo-2018.svg')}}">
-  <!-- Add Social buttons -->
-  <div id="bouncing-arrow" class="arrow bounce">
-    <a class="fa fa-arrow-down fa-2x" href="#"></a>
-  </div>
   <!-- Mobile Nav Button -->
   <div class="mobile-nav">
     <a id="trigger-overlay" class="menu-button" type="button" href="#"><img class="mobile-button" src="{{url('theme://images/mobile-button.svg')}}"></a>
   </div>
-
 </header>
+<a href="#_thestudio">
+  <div class="arrow-wrapper">
+    <div id="bouncing-arrow" class="arrow bounce">
+      <i class="fas fa-angle-down"></i>
+      <!-- <a class="fa fa-arrow-down fa-2x" href="#_thestudio"></a> -->
+    </div>
+    <p class="scroll-down-prompt">scroll down</p>
+  </div>
+</a>
 <!-- Full Nav -->
 {% block header_navigation %}
 <div class="full-nav__wrapper">
@@ -98,9 +98,9 @@
         <a href="mailto:chynna@ctmusicstudio.ca?Subject=Hi%20there">chynna@ctmusicstudio.ca</a>
       </div>
       <form method="POST" name="contactform" action="http://formspree.io/chynna@ctmusicstudio.ca">
-        <input class="contact-form" type="text" name="name" placeholder="name">
-        <input class="contact-form" type="text" name="email" placeholder="email">
-        <textarea class="contact-form contact-content" name="message" placeholder="message"></textarea>
+        <input class="contact-form field" type="text" name="name" placeholder="name">
+        <input class="contact-form field" type="text" name="email" placeholder="email">
+        <textarea class="contact-form field contact-content" name="message" placeholder="message"></textarea>
         <input class="contact-form contact-button" type="submit" name="submit"><br>
       </form>
     </div>
@@ -111,33 +111,6 @@
 <!--content-wrapper div end-->
 {% block bottom %}
     {{ assets.js('bottom') }}
-    <!-- <script>
-      $(document).ready(function(){
-        $(document).scroll(function() {
-          $('.logo-img').css({width: $(this).scrollTop() > 100? "30%":"100%"});
-        });
-      });
-    </script> -->
-    <script>
-      $(document).ready(function(){
-        $('.full-nav__wrapper').sticky({topSpacing:0});
-        $(".logo-img").animate({"opacity": "1"}, 700);
-        $(".arrow").delay(2000).animate({"opacity": "1"}, 700);
-      })
-    </script>
-    <script>
-      AOS.init();
-
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 43.6627635, lng: -79.7951424},
-          zoom: 14,
-          scrollwheel: false,
-          styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#c1c1c1"},{"visibility":"on"}]}]
-        });
-      }
-    </script>
     {{ assets.js('map') }}
 {% endblock %}
 

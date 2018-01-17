@@ -24,8 +24,10 @@ a:hover {
 }
 
 .logo-img {
+	position: relative;
 	max-width: 200px;
 	opacity: 0;
+	top: -5em;
 }
 
 .section-img {
@@ -56,6 +58,9 @@ a .img-dark:hover, a .img-light:hover{
 	height: $base-line-height;
 	width: 100%;
 	margin-top: $base-line-height;
+}
+
+.contact-form.field {
 	padding: 1rem;
 }
 
@@ -67,14 +72,24 @@ a .img-dark:hover, a .img-light:hover{
 	font-family: Qanelas-Regular;
 	background: color('d-background');
   color: font-color('light');
-  text-transform: uppercase;
+  text-transform: lowercase;
   height: $base-line-height * 1.5;
   width: 30%;
+}
+
+#bLogin{
+    box-sizing: border-box !important;
+    background-color: color('primary') !important;
+    border: 1px color('d-background') solid !important;
+    height: $base-line-height !important;
+    width: 100% !important;
+    margin-top: $base-line-height !important;
 }
 
 @media screen and (min-width: 768px){
 	.logo-img, {
 		max-width: 300px;
+		top: 0;
 	}
 
 	.section-img {

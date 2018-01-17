@@ -123,7 +123,7 @@ li {
 /* ============================================================= */
 /*===================== Color =====================*/
 .section-wrapper, .footer-wrapper {
-  padding: 8rem 1rem 8rem 1rem;
+  padding: 8rem 2rem 8rem 2rem;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -150,28 +150,21 @@ li {
 .header-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  min-height: 100vh;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  justify-content: center; }
 
 @media screen and (max-width: 550px) {
   .header-wrapper {
-    padding-top: 50%;
-    padding-bottom: 50%;
     padding-left: 1rem;
     padding-right: 1rem; } }
 
 @media screen and (min-width: 550px) {
-  .header-wrapper {
-    padding: 16rem 4rem 0rem 4rem; }
-  .header-wrapper {
-    height: 68vh; }
   .section-wrapper, .footer-wrapper {
     padding: 5rem 4rem 5rem 4rem; } }
 
 @media screen and (min-width: 768px) {
-  .header-wrapper {
-    padding: 14rem 6rem 0rem 6rem; }
   .section-wrapper, .footer-wrapper {
     padding: 5rem 6rem 5rem 6rem; } }
 
@@ -197,8 +190,10 @@ a:hover {
   text-decoration: underline; }
 
 .logo-img {
+  position: relative;
   max-width: 200px;
-  opacity: 0; }
+  opacity: 0;
+  top: -5em; }
 
 .section-img {
   max-width: 100%;
@@ -222,7 +217,9 @@ a .img-dark:hover, a .img-light:hover {
   border: 1px #333 solid;
   height: 1.5rem;
   width: 100%;
-  margin-top: 1.5rem;
+  margin-top: 1.5rem; }
+
+.contact-form.field {
   padding: 1rem; }
 
 .contact-content {
@@ -232,13 +229,22 @@ a .img-dark:hover, a .img-light:hover {
   font-family: Qanelas-Regular;
   background: #333;
   color: #FFFFFF;
-  text-transform: uppercase;
+  text-transform: lowercase;
   height: 2.25rem;
   width: 30%; }
 
+#bLogin {
+  box-sizing: border-box !important;
+  background-color: #FFFFFF !important;
+  border: 1px #333 solid !important;
+  height: 1.5rem !important;
+  width: 100% !important;
+  margin-top: 1.5rem !important; }
+
 @media screen and (min-width: 768px) {
   .logo-img {
-    max-width: 300px; }
+    max-width: 300px;
+    top: 0; }
   .section-img {
     max-width: 50%; }
   .about-school {
@@ -273,7 +279,8 @@ a .img-dark:hover, a .img-light:hover {
 .mobile-button {
   position: fixed;
   top: 1rem;
-  right: 1rem; }
+  right: 1rem;
+  z-index: 999; }
 
 /* Overlay style */
 .overlay {
@@ -283,7 +290,7 @@ a .img-dark:hover, a .img-light:hover {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.98);
   font-family: Qanelas-Regular; }
 
 /* Overlay closing cross */
@@ -383,7 +390,8 @@ a .img-dark:hover, a .img-light:hover {
   #full-nav {
     display: flex;
     width: 100%;
-    padding: .25rem 5rem; }
+    padding: .25rem 5rem;
+    align-items: center; }
     #full-nav ul {
       width: 100%;
       display: flex;
@@ -414,7 +422,7 @@ a .img-dark:hover, a .img-light:hover {
   justify-content: center; }
 
 img.nav-logo {
-  height: 2rem;
+  height: 1rem;
   left: -4rem;
   position: relative; }
 
@@ -426,10 +434,23 @@ a {
   color: black;
   text-decoration: none; }
 
+.arrow-wrapper {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  text-align: center; }
+
 .arrow {
   text-align: center;
   margin-top: 10rem;
   bottom: 10px;
+  opacity: 0; }
+
+.scroll-down-prompt {
+  font-size: .75em;
   opacity: 0; }
 
 .bounce {

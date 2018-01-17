@@ -2,7 +2,7 @@
 title: _thestudio
 ---
 
-# [the studio](/about)
+# the studio
 
 Chynna Tolibas has worked with music studios across the GTA for nearly 10 years before deciding to focus on her own private space. **ct music studio** is eponymous not only based on Chynna's initials, but it also serves as a tribute for her late father and her 3 elder siblings whose names also begin with C.
 
