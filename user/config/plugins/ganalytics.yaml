@@ -1,5 +1,5 @@
-enabled: false
-trackingId: ''
+enabled: true
+trackingId: 'UA-64680602-1'
 position: head
 objectName: ga
 forceSsl: false

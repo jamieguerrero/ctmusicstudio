@@ -54,13 +54,6 @@ table {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Qanelas-Medium';
-  src: url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.eot");
-  src: url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.woff2") format("woff2"), url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.woff") format("woff"), url("../fonts/Qanelas-Medium/qanelassoft-medium-webfont.ttf") format("truetype");
-  font-weight: bold;
-  font-style: bold; }
-
-@font-face {
   font-family: 'Qanelas-Semibold';
   src: url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.eot");
   src: url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.woff2") format("woff2"), url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.woff") format("woff"), url("../fonts/Qanelas-Semibold/qanelassoft-semibold-webfont.ttf") format("truetype");
@@ -73,13 +66,6 @@ table {
   src: url("../fonts/Qanelas-Bold/qanelassoft-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Qanelas-Bold/qanelassoft-bold-webfont.woff2") format("woff2"), url("../fonts/Qanelas-Bold/qanelassoft-bold-webfont.woff") format("woff"), url("../fonts/Qanelas-Bold/qanelassoft-bold-webfont.ttf") format("truetype");
   font-weight: bold;
   font-style: bold; }
-
-@font-face {
-  font-family: 'Qanelas-Italic';
-  src: url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.eot");
-  src: url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.woff2") format("woff2"), url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.woff") format("woff"), url("../fonts/Qanelas-Italic/qanelassoft-regularitalic-webfont.ttf") format("truetype");
-  font-weight: italic;
-  font-style: italic; }
 
 strong {
   font-weight: bold; }
@@ -203,7 +189,7 @@ a:hover {
   border: 5px #FFFFFF solid; }
 
 .img-light {
-  border: 5px #333 solid; }
+  border: 5px #424242 solid; }
 
 a .img-dark:hover, a .img-light:hover {
   border-color: #AA0000; }
@@ -214,7 +200,7 @@ a .img-dark:hover, a .img-light:hover {
 .contact-form {
   box-sizing: border-box;
   background-color: #FFFFFF;
-  border: 1px #333 solid;
+  border: 1px #424242 solid;
   height: 1.5rem;
   width: 100%;
   margin-top: 1.5rem; }
@@ -227,7 +213,7 @@ a .img-dark:hover, a .img-light:hover {
 
 .contact-button {
   font-family: Qanelas-Regular;
-  background: #333;
+  background: #424242;
   color: #FFFFFF;
   text-transform: lowercase;
   height: 2.25rem;
@@ -236,7 +222,7 @@ a .img-dark:hover, a .img-light:hover {
 #bLogin {
   box-sizing: border-box !important;
   background-color: #FFFFFF !important;
-  border: 1px #333 solid !important;
+  border: 1px #424242 solid !important;
   height: 1.5rem !important;
   width: 100% !important;
   margin-top: 1.5rem !important; }
@@ -467,7 +453,7 @@ a {
     transform: translateY(-15px); } }
 
 .section-dark {
-  background-color: #333;
+  background-color: #424242;
   color: #FFFFFF; }
 
 .section-dark a {
@@ -504,7 +490,7 @@ a {
   margin-bottom: 1.5rem; }
 
 .sched-dark {
-  background-color: #333;
+  background-color: #424242;
   color: #FFFFFF; }
 
 @media screen and (min-width: 700px) {
