@@ -1,6 +1,15 @@
 var plan = require('flightplan');
 
 // configuration
+plan.target('qa', [
+  {
+    host: 'qa.ctmusicstudio.ca',
+    username: 'ctmusics',
+    port: 18765,
+    agent: process.env.SSH_AUTH_SOCK
+  },
+]);
+
 plan.target('production', [
   {
     host: 'ctmusicstudio.ca',
